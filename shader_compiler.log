@@ -1,0 +1,1533 @@
+2025-03-11 21:20:47,664 - INFO - Compiling shaders from assets/shaders/src to assets/shaders/out
+2025-03-11 21:20:47,665 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_object_id_passthrough.vert -> assets/shaders/out/CWL_v_transformation_with_object_id_passthrough.vert
+2025-03-11 21:20:47,665 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_object_id_passthrough.vert
+2025-03-11 21:20:47,665 - INFO - Including file: CWL_uniforms.glsl
+2025-03-11 21:20:47,665 - INFO - Processing shader file: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:20:47,665 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_object_id_passthrough.vert
+2025-03-11 21:20:47,666 - INFO - Processing: assets/shaders/src/signed_distance_field_text.frag -> assets/shaders/out/signed_distance_field_text.frag
+2025-03-11 21:20:47,666 - INFO - Processing shader file: assets/shaders/src/signed_distance_field_text.frag
+2025-03-11 21:20:47,666 - INFO - Successfully processed: assets/shaders/src/signed_distance_field_text.frag
+2025-03-11 21:20:47,666 - INFO - Processing: assets/shaders/src/model_loading.frag -> assets/shaders/out/model_loading.frag
+2025-03-11 21:20:47,666 - INFO - Processing shader file: assets/shaders/src/model_loading.frag
+2025-03-11 21:20:47,666 - INFO - Successfully processed: assets/shaders/src/model_loading.frag
+2025-03-11 21:20:47,666 - INFO - Processing: assets/shaders/src/fixed_color_black_temp.frag -> assets/shaders/out/fixed_color_black_temp.frag
+2025-03-11 21:20:47,666 - INFO - Processing shader file: assets/shaders/src/fixed_color_black_temp.frag
+2025-03-11 21:20:47,667 - INFO - Successfully processed: assets/shaders/src/fixed_color_black_temp.frag
+2025-03-11 21:20:47,667 - INFO - Processing: assets/shaders/src/cubemap.frag -> assets/shaders/out/cubemap.frag
+2025-03-11 21:20:47,667 - INFO - Processing shader file: assets/shaders/src/cubemap.frag
+2025-03-11 21:20:47,667 - INFO - Successfully processed: assets/shaders/src/cubemap.frag
+2025-03-11 21:20:47,667 - INFO - Processing: assets/shaders/src/solid_color.frag -> assets/shaders/out/solid_color.frag
+2025-03-11 21:20:47,667 - INFO - Processing shader file: assets/shaders/src/solid_color.frag
+2025-03-11 21:20:47,667 - INFO - Successfully processed: assets/shaders/src/solid_color.frag
+2025-03-11 21:20:47,667 - INFO - Processing: assets/shaders/src/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert -> assets/shaders/out/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:20:47,667 - INFO - Processing shader file: assets/shaders/src/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:20:47,668 - INFO - Successfully processed: assets/shaders/src/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:20:47,668 - INFO - Processing: assets/shaders/src/colored_vertices.frag -> assets/shaders/out/colored_vertices.frag
+2025-03-11 21:20:47,668 - INFO - Processing shader file: assets/shaders/src/colored_vertices.frag
+2025-03-11 21:20:47,668 - INFO - Successfully processed: assets/shaders/src/colored_vertices.frag
+2025-03-11 21:20:47,669 - INFO - Processing: assets/shaders/src/fixed_color.frag -> assets/shaders/out/fixed_color.frag
+2025-03-11 21:20:47,669 - INFO - Processing shader file: assets/shaders/src/fixed_color.frag
+2025-03-11 21:20:47,669 - INFO - Successfully processed: assets/shaders/src/fixed_color.frag
+2025-03-11 21:20:47,669 - INFO - Processing: assets/shaders/src/CWL_v_transformation.vert -> assets/shaders/out/CWL_v_transformation.vert
+2025-03-11 21:20:47,669 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation.vert
+2025-03-11 21:20:47,670 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation.vert
+2025-03-11 21:20:47,670 - INFO - Processing: assets/shaders/src/textured_with_ambient_and_diffuse_lighting.frag -> assets/shaders/out/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:20:47,670 - INFO - Processing shader file: assets/shaders/src/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:20:47,671 - INFO - Successfully processed: assets/shaders/src/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:20:47,671 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_colored_vertices.vert -> assets/shaders/out/CWL_v_transformation_with_colored_vertices.vert
+2025-03-11 21:20:47,671 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_colored_vertices.vert
+2025-03-11 21:20:47,671 - INFO - Including file: CWL_uniforms.glsl
+2025-03-11 21:20:47,671 - INFO - Processing shader file: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:20:47,672 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_colored_vertices.vert
+2025-03-11 21:20:47,672 - INFO - Processing: assets/shaders/src/CWL_v_transformation_ubos_1024_with_colored_vertex.vert -> assets/shaders/out/CWL_v_transformation_ubos_1024_with_colored_vertex.vert
+2025-03-11 21:20:47,672 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_ubos_1024_with_colored_vertex.vert
+2025-03-11 21:20:47,672 - INFO - Including file: texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:20:47,672 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:20:47,672 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_ubos_1024_with_colored_vertex.vert
+2025-03-11 21:20:47,672 - INFO - Processing: assets/shaders/src/absolute_position.vert -> assets/shaders/out/absolute_position.vert
+2025-03-11 21:20:47,672 - INFO - Processing shader file: assets/shaders/src/absolute_position.vert
+2025-03-11 21:20:47,673 - INFO - Including file: aspect_ratio_correction.glsl
+2025-03-11 21:20:47,673 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:20:47,673 - INFO - Successfully processed: assets/shaders/src/absolute_position.vert
+2025-03-11 21:20:47,673 - INFO - Processing: assets/shaders/src/textured_with_single_bone_visualization.frag -> assets/shaders/out/textured_with_single_bone_visualization.frag
+2025-03-11 21:20:47,673 - INFO - Processing shader file: assets/shaders/src/textured_with_single_bone_visualization.frag
+2025-03-11 21:20:47,673 - INFO - Successfully processed: assets/shaders/src/textured_with_single_bone_visualization.frag
+2025-03-11 21:20:47,673 - INFO - Processing: assets/shaders/src/absolute_position_textured.vert -> assets/shaders/out/absolute_position_textured.vert
+2025-03-11 21:20:47,673 - INFO - Processing shader file: assets/shaders/src/absolute_position_textured.vert
+2025-03-11 21:20:47,673 - INFO - Including file: aspect_ratio_correction.glsl
+2025-03-11 21:20:47,673 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:20:47,673 - INFO - Successfully processed: assets/shaders/src/absolute_position_textured.vert
+2025-03-11 21:20:47,674 - INFO - Processing: assets/shaders/src/colored_vertices.vert -> assets/shaders/out/colored_vertices.vert
+2025-03-11 21:20:47,674 - INFO - Processing shader file: assets/shaders/src/colored_vertices.vert
+2025-03-11 21:20:47,674 - INFO - Including file: aspect_ratio_correction.glsl
+2025-03-11 21:20:47,674 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:20:47,674 - INFO - Successfully processed: assets/shaders/src/colored_vertices.vert
+2025-03-11 21:20:47,674 - INFO - Processing: assets/shaders/src/textured_with_ambient_lighting.frag -> assets/shaders/out/textured_with_ambient_lighting.frag
+2025-03-11 21:20:47,674 - INFO - Processing shader file: assets/shaders/src/textured_with_ambient_lighting.frag
+2025-03-11 21:20:47,674 - INFO - Successfully processed: assets/shaders/src/textured_with_ambient_lighting.frag
+2025-03-11 21:20:47,674 - INFO - Processing: assets/shaders/src/cubemap.vert -> assets/shaders/out/cubemap.vert
+2025-03-11 21:20:47,674 - INFO - Processing shader file: assets/shaders/src/cubemap.vert
+2025-03-11 21:20:47,674 - INFO - Successfully processed: assets/shaders/src/cubemap.vert
+2025-03-11 21:20:47,674 - INFO - Processing: assets/shaders/src/aspect_ratio_correction.glsl -> assets/shaders/out/aspect_ratio_correction.glsl
+2025-03-11 21:20:47,675 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:20:47,675 - INFO - Successfully processed: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:20:47,675 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert -> assets/shaders/out/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:20:47,675 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:20:47,675 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:20:47,675 - INFO - Processing: assets/shaders/src/CWL_uniforms.glsl -> assets/shaders/out/CWL_uniforms.glsl
+2025-03-11 21:20:47,675 - INFO - Processing shader file: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:20:47,675 - INFO - Successfully processed: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:20:47,675 - INFO - Processing: assets/shaders/src/text.vert -> assets/shaders/out/text.vert
+2025-03-11 21:20:47,675 - INFO - Processing shader file: assets/shaders/src/text.vert
+2025-03-11 21:20:47,675 - INFO - Successfully processed: assets/shaders/src/text.vert
+2025-03-11 21:20:47,676 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_passthrough.vert -> assets/shaders/out/CWL_v_transformation_with_texture_coordinate_passthrough.vert
+2025-03-11 21:20:47,676 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_passthrough.vert
+2025-03-11 21:20:47,676 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_passthrough.vert
+2025-03-11 21:20:47,676 - INFO - Processing: assets/shaders/src/object_id.frag -> assets/shaders/out/object_id.frag
+2025-03-11 21:20:47,676 - INFO - Processing shader file: assets/shaders/src/object_id.frag
+2025-03-11 21:20:47,676 - INFO - Successfully processed: assets/shaders/src/object_id.frag
+2025-03-11 21:20:47,676 - INFO - Processing: assets/shaders/src/CWL_v_transformation_ubos.vert -> assets/shaders/out/CWL_v_transformation_ubos.vert
+2025-03-11 21:20:47,676 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_ubos.vert
+2025-03-11 21:20:47,676 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_ubos.vert
+2025-03-11 21:20:47,677 - INFO - Processing: assets/shaders/src/textured.frag -> assets/shaders/out/textured.frag
+2025-03-11 21:20:47,677 - INFO - Processing shader file: assets/shaders/src/textured.frag
+2025-03-11 21:20:47,677 - INFO - Successfully processed: assets/shaders/src/textured.frag
+2025-03-11 21:20:47,677 - INFO - Processing: assets/shaders/src/text.frag -> assets/shaders/out/text.frag
+2025-03-11 21:20:47,677 - INFO - Processing shader file: assets/shaders/src/text.frag
+2025-03-11 21:20:47,677 - INFO - Successfully processed: assets/shaders/src/text.frag
+2025-03-11 21:20:47,677 - INFO - Processing: assets/shaders/src/transform_v_with_texture_coordinate_passthrough.vert -> assets/shaders/out/transform_v_with_texture_coordinate_passthrough.vert
+2025-03-11 21:20:47,677 - INFO - Processing shader file: assets/shaders/src/transform_v_with_texture_coordinate_passthrough.vert
+2025-03-11 21:20:47,677 - INFO - Successfully processed: assets/shaders/src/transform_v_with_texture_coordinate_passthrough.vert
+2025-03-11 21:20:47,677 - INFO - Processing: assets/shaders/src/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert -> assets/shaders/out/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert
+2025-03-11 21:20:47,677 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert
+2025-03-11 21:20:47,677 - INFO - Including file: texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:20:47,678 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:20:47,678 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert
+2025-03-11 21:20:47,678 - INFO - Processing: assets/shaders/src/texture_packer/signed_distance_field_text.frag -> assets/shaders/out/texture_packer/signed_distance_field_text.frag
+2025-03-11 21:20:47,678 - INFO - Processing shader file: assets/shaders/src/texture_packer/signed_distance_field_text.frag
+2025-03-11 21:20:47,678 - INFO - Successfully processed: assets/shaders/src/texture_packer/signed_distance_field_text.frag
+2025-03-11 21:20:47,678 - INFO - Processing: assets/shaders/src/texture_packer/CWL_v_transformation_ubos_1024.vert -> assets/shaders/out/texture_packer/CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:20:47,678 - INFO - Processing shader file: assets/shaders/src/texture_packer/CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:20:47,678 - INFO - Including file: local_to_world_1024_ubo.glsl
+2025-03-11 21:20:47,678 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:20:47,678 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:20:47,678 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:20:47,679 - INFO - Successfully processed: assets/shaders/src/texture_packer/CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:20:47,679 - INFO - Processing: assets/shaders/src/texture_packer/packed_texture_sampling.glsl -> assets/shaders/out/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:20:47,679 - INFO - Processing shader file: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:20:47,679 - INFO - Successfully processed: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:20:47,679 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert
+2025-03-11 21:20:47,679 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert
+2025-03-11 21:20:47,679 - INFO - Including file: local_to_world_2048_ubo.glsl
+2025-03-11 21:20:47,679 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:20:47,679 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:20:47,679 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:20:47,679 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:20:47,679 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:20:47,680 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:20:47,680 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:20:47,680 - INFO - Including file: lighting_input_passthrough.glsl
+2025-03-11 21:20:47,680 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:20:47,680 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert
+2025-03-11 21:20:47,680 - INFO - Processing: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl -> assets/shaders/out/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:20:47,680 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:20:47,680 - INFO - Successfully processed: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:20:47,680 - INFO - Processing: assets/shaders/src/texture_packer/textured_with_multiple_lights.frag -> assets/shaders/out/texture_packer/textured_with_multiple_lights.frag
+2025-03-11 21:20:47,680 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured_with_multiple_lights.frag
+2025-03-11 21:20:47,680 - INFO - Including file: lighting.glsl
+2025-03-11 21:20:47,680 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting.glsl
+2025-03-11 21:20:47,681 - INFO - Including file: packed_texture_sampling.glsl
+2025-03-11 21:20:47,681 - INFO - Processing shader file: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:20:47,681 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured_with_multiple_lights.frag
+2025-03-11 21:20:47,681 - INFO - Processing: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl -> assets/shaders/out/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:20:47,681 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:20:47,681 - INFO - Successfully processed: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:20:47,681 - INFO - Processing: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl -> assets/shaders/out/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:20:47,681 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:20:47,681 - INFO - Successfully processed: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:20:47,682 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:20:47,682 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:20:47,682 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:20:47,682 - INFO - Processing: assets/shaders/src/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert -> assets/shaders/out/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert
+2025-03-11 21:20:47,682 - INFO - Processing shader file: assets/shaders/src/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert
+2025-03-11 21:20:47,682 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:20:47,682 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:20:47,682 - INFO - Successfully processed: assets/shaders/src/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert
+2025-03-11 21:20:47,682 - INFO - Processing: assets/shaders/src/texture_packer/textured_with_ambient_and_diffuse_lighting.frag -> assets/shaders/out/texture_packer/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:20:47,682 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:20:47,682 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:20:47,683 - INFO - Processing: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl -> assets/shaders/out/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:20:47,683 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:20:47,683 - INFO - Successfully processed: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:20:47,683 - INFO - Processing: assets/shaders/src/texture_packer/textured_with_single_bone_visualization.frag -> assets/shaders/out/texture_packer/textured_with_single_bone_visualization.frag
+2025-03-11 21:20:47,683 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured_with_single_bone_visualization.frag
+2025-03-11 21:20:47,683 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured_with_single_bone_visualization.frag
+2025-03-11 21:20:47,683 - INFO - Processing: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl -> assets/shaders/out/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:20:47,683 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:20:47,683 - INFO - Successfully processed: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:20:47,683 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert
+2025-03-11 21:20:47,683 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert
+2025-03-11 21:20:47,684 - INFO - Including file: local_to_world_4096_ubo.glsl
+2025-03-11 21:20:47,684 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:20:47,684 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:20:47,684 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:20:47,684 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:20:47,684 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:20:47,684 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:20:47,684 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:20:47,684 - INFO - Including file: lighting_input_passthrough.glsl
+2025-03-11 21:20:47,684 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:20:47,684 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert
+2025-03-11 21:20:47,685 - INFO - Processing: assets/shaders/src/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert -> assets/shaders/out/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:20:47,685 - INFO - Processing shader file: assets/shaders/src/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:20:47,685 - INFO - Successfully processed: assets/shaders/src/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:20:47,685 - INFO - Processing: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl -> assets/shaders/out/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:20:47,685 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:20:47,685 - INFO - Successfully processed: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:20:47,685 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert
+2025-03-11 21:20:47,686 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert
+2025-03-11 21:20:47,686 - INFO - Including file: local_to_world_1024_ubo.glsl
+2025-03-11 21:20:47,686 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:20:47,686 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:20:47,686 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:20:47,686 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:20:47,687 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:20:47,687 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:20:47,687 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:20:47,687 - INFO - Including file: lighting_input_passthrough.glsl
+2025-03-11 21:20:47,687 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:20:47,687 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert
+2025-03-11 21:20:47,688 - INFO - Processing: assets/shaders/src/texture_packer/textured.frag -> assets/shaders/out/texture_packer/textured.frag
+2025-03-11 21:20:47,688 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured.frag
+2025-03-11 21:20:47,688 - INFO - Including file: packed_texture_sampling.glsl
+2025-03-11 21:20:47,688 - INFO - Processing shader file: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:20:47,689 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured.frag
+2025-03-11 21:20:47,689 - INFO - Processing: assets/shaders/src/texture_packer/lighting.glsl -> assets/shaders/out/texture_packer/lighting.glsl
+2025-03-11 21:20:47,689 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting.glsl
+2025-03-11 21:20:47,689 - INFO - Successfully processed: assets/shaders/src/texture_packer/lighting.glsl
+2025-03-11 21:20:47,689 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:20:47,689 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:20:47,689 - INFO - Including file: local_to_world_1024_ubo.glsl
+2025-03-11 21:20:47,689 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:20:47,689 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:20:47,689 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:20:47,690 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:20:47,690 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:20:47,690 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:20:47,690 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:20:47,690 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:20:47,690 - INFO - Shader compilation completed successfully.
+2025-03-11 21:29:54,669 - INFO - Compiling shaders from assets/shaders/src to assets/shaders/out
+2025-03-11 21:29:54,670 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_object_id_passthrough.vert -> assets/shaders/out/CWL_v_transformation_with_object_id_passthrough.vert
+2025-03-11 21:29:54,670 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_object_id_passthrough.vert
+2025-03-11 21:29:54,670 - INFO - Including file: CWL_uniforms.glsl
+2025-03-11 21:29:54,671 - INFO - Processing shader file: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:29:54,671 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_object_id_passthrough.vert
+2025-03-11 21:29:54,671 - INFO - Processing: assets/shaders/src/signed_distance_field_text.frag -> assets/shaders/out/signed_distance_field_text.frag
+2025-03-11 21:29:54,671 - INFO - Processing shader file: assets/shaders/src/signed_distance_field_text.frag
+2025-03-11 21:29:54,672 - INFO - Successfully processed: assets/shaders/src/signed_distance_field_text.frag
+2025-03-11 21:29:54,672 - INFO - Processing: assets/shaders/src/model_loading.frag -> assets/shaders/out/model_loading.frag
+2025-03-11 21:29:54,672 - INFO - Processing shader file: assets/shaders/src/model_loading.frag
+2025-03-11 21:29:54,672 - INFO - Successfully processed: assets/shaders/src/model_loading.frag
+2025-03-11 21:29:54,672 - INFO - Processing: assets/shaders/src/fixed_color_black_temp.frag -> assets/shaders/out/fixed_color_black_temp.frag
+2025-03-11 21:29:54,673 - INFO - Processing shader file: assets/shaders/src/fixed_color_black_temp.frag
+2025-03-11 21:29:54,673 - INFO - Successfully processed: assets/shaders/src/fixed_color_black_temp.frag
+2025-03-11 21:29:54,673 - INFO - Processing: assets/shaders/src/cubemap.frag -> assets/shaders/out/cubemap.frag
+2025-03-11 21:29:54,674 - INFO - Processing shader file: assets/shaders/src/cubemap.frag
+2025-03-11 21:29:54,674 - INFO - Successfully processed: assets/shaders/src/cubemap.frag
+2025-03-11 21:29:54,675 - INFO - Processing: assets/shaders/src/solid_color.frag -> assets/shaders/out/solid_color.frag
+2025-03-11 21:29:54,675 - INFO - Processing shader file: assets/shaders/src/solid_color.frag
+2025-03-11 21:29:54,676 - INFO - Successfully processed: assets/shaders/src/solid_color.frag
+2025-03-11 21:29:54,676 - INFO - Processing: assets/shaders/src/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert -> assets/shaders/out/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:29:54,676 - INFO - Processing shader file: assets/shaders/src/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:29:54,677 - INFO - Successfully processed: assets/shaders/src/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:29:54,677 - INFO - Processing: assets/shaders/src/colored_vertices.frag -> assets/shaders/out/colored_vertices.frag
+2025-03-11 21:29:54,677 - INFO - Processing shader file: assets/shaders/src/colored_vertices.frag
+2025-03-11 21:29:54,677 - INFO - Successfully processed: assets/shaders/src/colored_vertices.frag
+2025-03-11 21:29:54,678 - INFO - Processing: assets/shaders/src/fixed_color.frag -> assets/shaders/out/fixed_color.frag
+2025-03-11 21:29:54,678 - INFO - Processing shader file: assets/shaders/src/fixed_color.frag
+2025-03-11 21:29:54,680 - INFO - Successfully processed: assets/shaders/src/fixed_color.frag
+2025-03-11 21:29:54,680 - INFO - Processing: assets/shaders/src/CWL_v_transformation.vert -> assets/shaders/out/CWL_v_transformation.vert
+2025-03-11 21:29:54,680 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation.vert
+2025-03-11 21:29:54,681 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation.vert
+2025-03-11 21:29:54,681 - INFO - Processing: assets/shaders/src/textured_with_ambient_and_diffuse_lighting.frag -> assets/shaders/out/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:29:54,681 - INFO - Processing shader file: assets/shaders/src/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:29:54,681 - INFO - Successfully processed: assets/shaders/src/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:29:54,681 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_colored_vertices.vert -> assets/shaders/out/CWL_v_transformation_with_colored_vertices.vert
+2025-03-11 21:29:54,681 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_colored_vertices.vert
+2025-03-11 21:29:54,681 - INFO - Including file: CWL_uniforms.glsl
+2025-03-11 21:29:54,681 - INFO - Processing shader file: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:29:54,682 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_colored_vertices.vert
+2025-03-11 21:29:54,682 - INFO - Processing: assets/shaders/src/CWL_v_transformation_ubos_1024_with_colored_vertex.vert -> assets/shaders/out/CWL_v_transformation_ubos_1024_with_colored_vertex.vert
+2025-03-11 21:29:54,682 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_ubos_1024_with_colored_vertex.vert
+2025-03-11 21:29:54,682 - INFO - Including file: texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:29:54,682 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:29:54,682 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_ubos_1024_with_colored_vertex.vert
+2025-03-11 21:29:54,682 - INFO - Processing: assets/shaders/src/absolute_position.vert -> assets/shaders/out/absolute_position.vert
+2025-03-11 21:29:54,682 - INFO - Processing shader file: assets/shaders/src/absolute_position.vert
+2025-03-11 21:29:54,683 - INFO - Including file: aspect_ratio_correction.glsl
+2025-03-11 21:29:54,683 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:29:54,683 - INFO - Successfully processed: assets/shaders/src/absolute_position.vert
+2025-03-11 21:29:54,683 - INFO - Processing: assets/shaders/src/textured_with_single_bone_visualization.frag -> assets/shaders/out/textured_with_single_bone_visualization.frag
+2025-03-11 21:29:54,683 - INFO - Processing shader file: assets/shaders/src/textured_with_single_bone_visualization.frag
+2025-03-11 21:29:54,683 - INFO - Successfully processed: assets/shaders/src/textured_with_single_bone_visualization.frag
+2025-03-11 21:29:54,683 - INFO - Processing: assets/shaders/src/absolute_position_textured.vert -> assets/shaders/out/absolute_position_textured.vert
+2025-03-11 21:29:54,684 - INFO - Processing shader file: assets/shaders/src/absolute_position_textured.vert
+2025-03-11 21:29:54,684 - INFO - Including file: aspect_ratio_correction.glsl
+2025-03-11 21:29:54,684 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:29:54,684 - INFO - Successfully processed: assets/shaders/src/absolute_position_textured.vert
+2025-03-11 21:29:54,684 - INFO - Processing: assets/shaders/src/colored_vertices.vert -> assets/shaders/out/colored_vertices.vert
+2025-03-11 21:29:54,684 - INFO - Processing shader file: assets/shaders/src/colored_vertices.vert
+2025-03-11 21:29:54,684 - INFO - Including file: aspect_ratio_correction.glsl
+2025-03-11 21:29:54,684 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:29:54,685 - INFO - Successfully processed: assets/shaders/src/colored_vertices.vert
+2025-03-11 21:29:54,685 - INFO - Processing: assets/shaders/src/textured_with_ambient_lighting.frag -> assets/shaders/out/textured_with_ambient_lighting.frag
+2025-03-11 21:29:54,685 - INFO - Processing shader file: assets/shaders/src/textured_with_ambient_lighting.frag
+2025-03-11 21:29:54,685 - INFO - Successfully processed: assets/shaders/src/textured_with_ambient_lighting.frag
+2025-03-11 21:29:54,685 - INFO - Processing: assets/shaders/src/cubemap.vert -> assets/shaders/out/cubemap.vert
+2025-03-11 21:29:54,685 - INFO - Processing shader file: assets/shaders/src/cubemap.vert
+2025-03-11 21:29:54,686 - INFO - Successfully processed: assets/shaders/src/cubemap.vert
+2025-03-11 21:29:54,686 - INFO - Processing: assets/shaders/src/aspect_ratio_correction.glsl -> assets/shaders/out/aspect_ratio_correction.glsl
+2025-03-11 21:29:54,686 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:29:54,686 - INFO - Successfully processed: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:29:54,686 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert -> assets/shaders/out/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:29:54,686 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:29:54,686 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:29:54,686 - INFO - Processing: assets/shaders/src/CWL_uniforms.glsl -> assets/shaders/out/CWL_uniforms.glsl
+2025-03-11 21:29:54,686 - INFO - Processing shader file: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:29:54,686 - INFO - Successfully processed: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:29:54,687 - INFO - Processing: assets/shaders/src/text.vert -> assets/shaders/out/text.vert
+2025-03-11 21:29:54,687 - INFO - Processing shader file: assets/shaders/src/text.vert
+2025-03-11 21:29:54,687 - INFO - Successfully processed: assets/shaders/src/text.vert
+2025-03-11 21:29:54,687 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_passthrough.vert -> assets/shaders/out/CWL_v_transformation_with_texture_coordinate_passthrough.vert
+2025-03-11 21:29:54,687 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_passthrough.vert
+2025-03-11 21:29:54,687 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_passthrough.vert
+2025-03-11 21:29:54,687 - INFO - Processing: assets/shaders/src/object_id.frag -> assets/shaders/out/object_id.frag
+2025-03-11 21:29:54,687 - INFO - Processing shader file: assets/shaders/src/object_id.frag
+2025-03-11 21:29:54,688 - INFO - Successfully processed: assets/shaders/src/object_id.frag
+2025-03-11 21:29:54,688 - INFO - Processing: assets/shaders/src/CWL_v_transformation_ubos.vert -> assets/shaders/out/CWL_v_transformation_ubos.vert
+2025-03-11 21:29:54,688 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_ubos.vert
+2025-03-11 21:29:54,688 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_ubos.vert
+2025-03-11 21:29:54,688 - INFO - Processing: assets/shaders/src/textured.frag -> assets/shaders/out/textured.frag
+2025-03-11 21:29:54,688 - INFO - Processing shader file: assets/shaders/src/textured.frag
+2025-03-11 21:29:54,689 - INFO - Successfully processed: assets/shaders/src/textured.frag
+2025-03-11 21:29:54,689 - INFO - Processing: assets/shaders/src/text.frag -> assets/shaders/out/text.frag
+2025-03-11 21:29:54,689 - INFO - Processing shader file: assets/shaders/src/text.frag
+2025-03-11 21:29:54,690 - INFO - Successfully processed: assets/shaders/src/text.frag
+2025-03-11 21:29:54,690 - INFO - Processing: assets/shaders/src/transform_v_with_texture_coordinate_passthrough.vert -> assets/shaders/out/transform_v_with_texture_coordinate_passthrough.vert
+2025-03-11 21:29:54,691 - INFO - Processing shader file: assets/shaders/src/transform_v_with_texture_coordinate_passthrough.vert
+2025-03-11 21:29:54,691 - INFO - Successfully processed: assets/shaders/src/transform_v_with_texture_coordinate_passthrough.vert
+2025-03-11 21:29:54,691 - INFO - Processing: assets/shaders/src/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert -> assets/shaders/out/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert
+2025-03-11 21:29:54,691 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert
+2025-03-11 21:29:54,691 - INFO - Including file: texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:29:54,691 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:29:54,691 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert
+2025-03-11 21:29:54,692 - INFO - Processing: assets/shaders/src/texture_packer/signed_distance_field_text.frag -> assets/shaders/out/texture_packer/signed_distance_field_text.frag
+2025-03-11 21:29:54,692 - INFO - Processing shader file: assets/shaders/src/texture_packer/signed_distance_field_text.frag
+2025-03-11 21:29:54,692 - INFO - Successfully processed: assets/shaders/src/texture_packer/signed_distance_field_text.frag
+2025-03-11 21:29:54,692 - INFO - Processing: assets/shaders/src/texture_packer/CWL_v_transformation_ubos_1024.vert -> assets/shaders/out/texture_packer/CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:29:54,692 - INFO - Processing shader file: assets/shaders/src/texture_packer/CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:29:54,692 - INFO - Including file: local_to_world_1024_ubo.glsl
+2025-03-11 21:29:54,692 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:29:54,692 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:29:54,693 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:29:54,693 - INFO - Successfully processed: assets/shaders/src/texture_packer/CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:29:54,693 - INFO - Processing: assets/shaders/src/texture_packer/packed_texture_sampling.glsl -> assets/shaders/out/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:29:54,693 - INFO - Processing shader file: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:29:54,693 - INFO - Successfully processed: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:29:54,693 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert
+2025-03-11 21:29:54,693 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert
+2025-03-11 21:29:54,694 - INFO - Including file: local_to_world_2048_ubo.glsl
+2025-03-11 21:29:54,694 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:29:54,694 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:29:54,694 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:29:54,694 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:29:54,694 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:29:54,694 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:29:54,694 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:29:54,695 - INFO - Including file: lighting_input_passthrough.glsl
+2025-03-11 21:29:54,695 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:29:54,695 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert
+2025-03-11 21:29:54,695 - INFO - Processing: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl -> assets/shaders/out/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:29:54,695 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:29:54,697 - INFO - Successfully processed: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:29:54,698 - INFO - Processing: assets/shaders/src/texture_packer/textured_with_multiple_lights.frag -> assets/shaders/out/texture_packer/textured_with_multiple_lights.frag
+2025-03-11 21:29:54,698 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured_with_multiple_lights.frag
+2025-03-11 21:29:54,698 - INFO - Including file: lighting.glsl
+2025-03-11 21:29:54,698 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting.glsl
+2025-03-11 21:29:54,698 - INFO - Including file: packed_texture_sampling.glsl
+2025-03-11 21:29:54,698 - INFO - Processing shader file: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:29:54,699 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured_with_multiple_lights.frag
+2025-03-11 21:29:54,699 - INFO - Processing: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl -> assets/shaders/out/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:29:54,699 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:29:54,699 - INFO - Successfully processed: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:29:54,699 - INFO - Processing: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl -> assets/shaders/out/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:29:54,699 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:29:54,699 - INFO - Successfully processed: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:29:54,700 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:29:54,700 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:29:54,700 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:29:54,700 - INFO - Processing: assets/shaders/src/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert -> assets/shaders/out/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert
+2025-03-11 21:29:54,700 - INFO - Processing shader file: assets/shaders/src/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert
+2025-03-11 21:29:54,700 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:29:54,700 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:29:54,700 - INFO - Successfully processed: assets/shaders/src/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert
+2025-03-11 21:29:54,701 - INFO - Processing: assets/shaders/src/texture_packer/textured_with_ambient_and_diffuse_lighting.frag -> assets/shaders/out/texture_packer/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:29:54,701 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:29:54,701 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:29:54,701 - INFO - Processing: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl -> assets/shaders/out/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:29:54,701 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:29:54,701 - INFO - Successfully processed: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:29:54,701 - INFO - Processing: assets/shaders/src/texture_packer/textured_with_single_bone_visualization.frag -> assets/shaders/out/texture_packer/textured_with_single_bone_visualization.frag
+2025-03-11 21:29:54,701 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured_with_single_bone_visualization.frag
+2025-03-11 21:29:54,702 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured_with_single_bone_visualization.frag
+2025-03-11 21:29:54,702 - INFO - Processing: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl -> assets/shaders/out/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:29:54,702 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:29:54,702 - INFO - Successfully processed: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:29:54,702 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert
+2025-03-11 21:29:54,702 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert
+2025-03-11 21:29:54,702 - INFO - Including file: local_to_world_4096_ubo.glsl
+2025-03-11 21:29:54,702 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:29:54,703 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:29:54,703 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:29:54,703 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:29:54,703 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:29:54,703 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:29:54,703 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:29:54,703 - INFO - Including file: lighting_input_passthrough.glsl
+2025-03-11 21:29:54,703 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:29:54,704 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert
+2025-03-11 21:29:54,704 - INFO - Processing: assets/shaders/src/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert -> assets/shaders/out/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:29:54,704 - INFO - Processing shader file: assets/shaders/src/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:29:54,704 - INFO - Successfully processed: assets/shaders/src/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:29:54,704 - INFO - Processing: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl -> assets/shaders/out/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:29:54,705 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:29:54,705 - INFO - Successfully processed: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:29:54,705 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert
+2025-03-11 21:29:54,705 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert
+2025-03-11 21:29:54,705 - INFO - Including file: local_to_world_1024_ubo.glsl
+2025-03-11 21:29:54,705 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:29:54,706 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:29:54,706 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:29:54,706 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:29:54,706 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:29:54,706 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:29:54,706 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:29:54,706 - INFO - Including file: lighting_input_passthrough.glsl
+2025-03-11 21:29:54,707 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:29:54,707 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert
+2025-03-11 21:29:54,707 - INFO - Processing: assets/shaders/src/texture_packer/textured.frag -> assets/shaders/out/texture_packer/textured.frag
+2025-03-11 21:29:54,707 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured.frag
+2025-03-11 21:29:54,708 - INFO - Including file: packed_texture_sampling.glsl
+2025-03-11 21:29:54,709 - INFO - Processing shader file: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:29:54,710 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured.frag
+2025-03-11 21:29:54,710 - INFO - Processing: assets/shaders/src/texture_packer/lighting.glsl -> assets/shaders/out/texture_packer/lighting.glsl
+2025-03-11 21:29:54,710 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting.glsl
+2025-03-11 21:29:54,710 - INFO - Successfully processed: assets/shaders/src/texture_packer/lighting.glsl
+2025-03-11 21:29:54,711 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:29:54,711 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:29:54,713 - INFO - Including file: local_to_world_1024_ubo.glsl
+2025-03-11 21:29:54,713 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:29:54,713 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:29:54,713 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:29:54,713 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:29:54,713 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:29:54,714 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:29:54,714 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:29:54,714 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:29:54,714 - INFO - Shader compilation completed successfully.
+2025-03-11 21:52:58,249 - INFO - Compiling shaders from assets/shaders/src to assets/shaders/out
+2025-03-11 21:52:58,250 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_object_id_passthrough.vert -> assets/shaders/out/CWL_v_transformation_with_object_id_passthrough.vert
+2025-03-11 21:52:58,250 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_object_id_passthrough.vert
+2025-03-11 21:52:58,251 - INFO - Including file: CWL_uniforms.glsl
+2025-03-11 21:52:58,251 - INFO - Processing shader file: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:52:58,251 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_object_id_passthrough.vert
+2025-03-11 21:52:58,251 - INFO - Processing: assets/shaders/src/signed_distance_field_text.frag -> assets/shaders/out/signed_distance_field_text.frag
+2025-03-11 21:52:58,251 - INFO - Processing shader file: assets/shaders/src/signed_distance_field_text.frag
+2025-03-11 21:52:58,252 - INFO - Successfully processed: assets/shaders/src/signed_distance_field_text.frag
+2025-03-11 21:52:58,252 - INFO - Processing: assets/shaders/src/model_loading.frag -> assets/shaders/out/model_loading.frag
+2025-03-11 21:52:58,252 - INFO - Processing shader file: assets/shaders/src/model_loading.frag
+2025-03-11 21:52:58,252 - INFO - Successfully processed: assets/shaders/src/model_loading.frag
+2025-03-11 21:52:58,253 - INFO - Processing: assets/shaders/src/fixed_color_black_temp.frag -> assets/shaders/out/fixed_color_black_temp.frag
+2025-03-11 21:52:58,253 - INFO - Processing shader file: assets/shaders/src/fixed_color_black_temp.frag
+2025-03-11 21:52:58,253 - INFO - Successfully processed: assets/shaders/src/fixed_color_black_temp.frag
+2025-03-11 21:52:58,253 - INFO - Processing: assets/shaders/src/cubemap.frag -> assets/shaders/out/cubemap.frag
+2025-03-11 21:52:58,253 - INFO - Processing shader file: assets/shaders/src/cubemap.frag
+2025-03-11 21:52:58,254 - INFO - Successfully processed: assets/shaders/src/cubemap.frag
+2025-03-11 21:52:58,254 - INFO - Processing: assets/shaders/src/solid_color.frag -> assets/shaders/out/solid_color.frag
+2025-03-11 21:52:58,254 - INFO - Processing shader file: assets/shaders/src/solid_color.frag
+2025-03-11 21:52:58,255 - INFO - Successfully processed: assets/shaders/src/solid_color.frag
+2025-03-11 21:52:58,255 - INFO - Processing: assets/shaders/src/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert -> assets/shaders/out/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:52:58,255 - INFO - Processing shader file: assets/shaders/src/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:52:58,256 - INFO - Successfully processed: assets/shaders/src/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:52:58,257 - INFO - Processing: assets/shaders/src/colored_vertices.frag -> assets/shaders/out/colored_vertices.frag
+2025-03-11 21:52:58,258 - INFO - Processing shader file: assets/shaders/src/colored_vertices.frag
+2025-03-11 21:52:58,259 - INFO - Successfully processed: assets/shaders/src/colored_vertices.frag
+2025-03-11 21:52:58,259 - INFO - Processing: assets/shaders/src/fixed_color.frag -> assets/shaders/out/fixed_color.frag
+2025-03-11 21:52:58,259 - INFO - Processing shader file: assets/shaders/src/fixed_color.frag
+2025-03-11 21:52:58,259 - INFO - Successfully processed: assets/shaders/src/fixed_color.frag
+2025-03-11 21:52:58,260 - INFO - Processing: assets/shaders/src/CWL_v_transformation.vert -> assets/shaders/out/CWL_v_transformation.vert
+2025-03-11 21:52:58,260 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation.vert
+2025-03-11 21:52:58,260 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation.vert
+2025-03-11 21:52:58,260 - INFO - Processing: assets/shaders/src/textured_with_ambient_and_diffuse_lighting.frag -> assets/shaders/out/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:52:58,260 - INFO - Processing shader file: assets/shaders/src/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:52:58,261 - INFO - Successfully processed: assets/shaders/src/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:52:58,261 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_colored_vertices.vert -> assets/shaders/out/CWL_v_transformation_with_colored_vertices.vert
+2025-03-11 21:52:58,261 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_colored_vertices.vert
+2025-03-11 21:52:58,261 - INFO - Including file: CWL_uniforms.glsl
+2025-03-11 21:52:58,261 - INFO - Processing shader file: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:52:58,261 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_colored_vertices.vert
+2025-03-11 21:52:58,262 - INFO - Processing: assets/shaders/src/CWL_v_transformation_ubos_1024_with_colored_vertex.vert -> assets/shaders/out/CWL_v_transformation_ubos_1024_with_colored_vertex.vert
+2025-03-11 21:52:58,262 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_ubos_1024_with_colored_vertex.vert
+2025-03-11 21:52:58,262 - INFO - Including file: texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:52:58,262 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:52:58,262 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_ubos_1024_with_colored_vertex.vert
+2025-03-11 21:52:58,262 - INFO - Processing: assets/shaders/src/absolute_position.vert -> assets/shaders/out/absolute_position.vert
+2025-03-11 21:52:58,262 - INFO - Processing shader file: assets/shaders/src/absolute_position.vert
+2025-03-11 21:52:58,263 - INFO - Including file: aspect_ratio_correction.glsl
+2025-03-11 21:52:58,263 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:52:58,263 - INFO - Successfully processed: assets/shaders/src/absolute_position.vert
+2025-03-11 21:52:58,263 - INFO - Processing: assets/shaders/src/textured_with_single_bone_visualization.frag -> assets/shaders/out/textured_with_single_bone_visualization.frag
+2025-03-11 21:52:58,263 - INFO - Processing shader file: assets/shaders/src/textured_with_single_bone_visualization.frag
+2025-03-11 21:52:58,263 - INFO - Successfully processed: assets/shaders/src/textured_with_single_bone_visualization.frag
+2025-03-11 21:52:58,264 - INFO - Processing: assets/shaders/src/absolute_position_textured.vert -> assets/shaders/out/absolute_position_textured.vert
+2025-03-11 21:52:58,264 - INFO - Processing shader file: assets/shaders/src/absolute_position_textured.vert
+2025-03-11 21:52:58,264 - INFO - Including file: aspect_ratio_correction.glsl
+2025-03-11 21:52:58,264 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:52:58,264 - INFO - Successfully processed: assets/shaders/src/absolute_position_textured.vert
+2025-03-11 21:52:58,264 - INFO - Processing: assets/shaders/src/colored_vertices.vert -> assets/shaders/out/colored_vertices.vert
+2025-03-11 21:52:58,265 - INFO - Processing shader file: assets/shaders/src/colored_vertices.vert
+2025-03-11 21:52:58,265 - INFO - Including file: aspect_ratio_correction.glsl
+2025-03-11 21:52:58,265 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:52:58,265 - INFO - Successfully processed: assets/shaders/src/colored_vertices.vert
+2025-03-11 21:52:58,265 - INFO - Processing: assets/shaders/src/textured_with_ambient_lighting.frag -> assets/shaders/out/textured_with_ambient_lighting.frag
+2025-03-11 21:52:58,265 - INFO - Processing shader file: assets/shaders/src/textured_with_ambient_lighting.frag
+2025-03-11 21:52:58,266 - INFO - Successfully processed: assets/shaders/src/textured_with_ambient_lighting.frag
+2025-03-11 21:52:58,266 - INFO - Processing: assets/shaders/src/cubemap.vert -> assets/shaders/out/cubemap.vert
+2025-03-11 21:52:58,266 - INFO - Processing shader file: assets/shaders/src/cubemap.vert
+2025-03-11 21:52:58,266 - INFO - Successfully processed: assets/shaders/src/cubemap.vert
+2025-03-11 21:52:58,266 - INFO - Processing: assets/shaders/src/aspect_ratio_correction.glsl -> assets/shaders/out/aspect_ratio_correction.glsl
+2025-03-11 21:52:58,266 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:52:58,267 - INFO - Successfully processed: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:52:58,267 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert -> assets/shaders/out/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:52:58,267 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:52:58,267 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:52:58,267 - INFO - Processing: assets/shaders/src/CWL_uniforms.glsl -> assets/shaders/out/CWL_uniforms.glsl
+2025-03-11 21:52:58,267 - INFO - Processing shader file: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:52:58,268 - INFO - Successfully processed: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:52:58,268 - INFO - Processing: assets/shaders/src/text.vert -> assets/shaders/out/text.vert
+2025-03-11 21:52:58,268 - INFO - Processing shader file: assets/shaders/src/text.vert
+2025-03-11 21:52:58,268 - INFO - Successfully processed: assets/shaders/src/text.vert
+2025-03-11 21:52:58,268 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_passthrough.vert -> assets/shaders/out/CWL_v_transformation_with_texture_coordinate_passthrough.vert
+2025-03-11 21:52:58,268 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_passthrough.vert
+2025-03-11 21:52:58,269 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_passthrough.vert
+2025-03-11 21:52:58,269 - INFO - Processing: assets/shaders/src/object_id.frag -> assets/shaders/out/object_id.frag
+2025-03-11 21:52:58,269 - INFO - Processing shader file: assets/shaders/src/object_id.frag
+2025-03-11 21:52:58,269 - INFO - Successfully processed: assets/shaders/src/object_id.frag
+2025-03-11 21:52:58,269 - INFO - Processing: assets/shaders/src/CWL_v_transformation_ubos.vert -> assets/shaders/out/CWL_v_transformation_ubos.vert
+2025-03-11 21:52:58,269 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_ubos.vert
+2025-03-11 21:52:58,270 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_ubos.vert
+2025-03-11 21:52:58,270 - INFO - Processing: assets/shaders/src/textured.frag -> assets/shaders/out/textured.frag
+2025-03-11 21:52:58,270 - INFO - Processing shader file: assets/shaders/src/textured.frag
+2025-03-11 21:52:58,270 - INFO - Successfully processed: assets/shaders/src/textured.frag
+2025-03-11 21:52:58,271 - INFO - Processing: assets/shaders/src/text.frag -> assets/shaders/out/text.frag
+2025-03-11 21:52:58,271 - INFO - Processing shader file: assets/shaders/src/text.frag
+2025-03-11 21:52:58,271 - INFO - Successfully processed: assets/shaders/src/text.frag
+2025-03-11 21:52:58,271 - INFO - Processing: assets/shaders/src/transform_v_with_texture_coordinate_passthrough.vert -> assets/shaders/out/transform_v_with_texture_coordinate_passthrough.vert
+2025-03-11 21:52:58,271 - INFO - Processing shader file: assets/shaders/src/transform_v_with_texture_coordinate_passthrough.vert
+2025-03-11 21:52:58,272 - INFO - Successfully processed: assets/shaders/src/transform_v_with_texture_coordinate_passthrough.vert
+2025-03-11 21:52:58,272 - INFO - Processing: assets/shaders/src/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert -> assets/shaders/out/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert
+2025-03-11 21:52:58,272 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert
+2025-03-11 21:52:58,272 - INFO - Including file: texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:52:58,272 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:52:58,273 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert
+2025-03-11 21:52:58,273 - INFO - Processing: assets/shaders/src/texture_packer/signed_distance_field_text.frag -> assets/shaders/out/texture_packer/signed_distance_field_text.frag
+2025-03-11 21:52:58,273 - INFO - Processing shader file: assets/shaders/src/texture_packer/signed_distance_field_text.frag
+2025-03-11 21:52:58,273 - INFO - Successfully processed: assets/shaders/src/texture_packer/signed_distance_field_text.frag
+2025-03-11 21:52:58,273 - INFO - Processing: assets/shaders/src/texture_packer/CWL_v_transformation_ubos_1024.vert -> assets/shaders/out/texture_packer/CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:52:58,274 - INFO - Processing shader file: assets/shaders/src/texture_packer/CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:52:58,274 - INFO - Including file: local_to_world_1024_ubo.glsl
+2025-03-11 21:52:58,274 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:52:58,275 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:52:58,275 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:52:58,276 - INFO - Successfully processed: assets/shaders/src/texture_packer/CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:52:58,277 - INFO - Processing: assets/shaders/src/texture_packer/packed_texture_sampling.glsl -> assets/shaders/out/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:52:58,277 - INFO - Processing shader file: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:52:58,278 - INFO - Successfully processed: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:52:58,278 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert
+2025-03-11 21:52:58,278 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert
+2025-03-11 21:52:58,279 - INFO - Including file: local_to_world_2048_ubo.glsl
+2025-03-11 21:52:58,279 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:52:58,279 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:52:58,279 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:52:58,279 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:52:58,279 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:52:58,280 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:52:58,280 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:52:58,280 - INFO - Including file: lighting_input_passthrough.glsl
+2025-03-11 21:52:58,280 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:52:58,280 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert
+2025-03-11 21:52:58,281 - INFO - Processing: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl -> assets/shaders/out/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:52:58,281 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:52:58,281 - INFO - Successfully processed: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:52:58,281 - INFO - Processing: assets/shaders/src/texture_packer/textured_with_multiple_lights.frag -> assets/shaders/out/texture_packer/textured_with_multiple_lights.frag
+2025-03-11 21:52:58,281 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured_with_multiple_lights.frag
+2025-03-11 21:52:58,281 - INFO - Including file: lighting.glsl
+2025-03-11 21:52:58,282 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting.glsl
+2025-03-11 21:52:58,282 - INFO - Including file: packed_texture_sampling.glsl
+2025-03-11 21:52:58,282 - INFO - Processing shader file: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:52:58,283 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured_with_multiple_lights.frag
+2025-03-11 21:52:58,283 - INFO - Processing: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl -> assets/shaders/out/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:52:58,283 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:52:58,283 - INFO - Successfully processed: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:52:58,283 - INFO - Processing: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl -> assets/shaders/out/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:52:58,284 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:52:58,284 - INFO - Successfully processed: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:52:58,284 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:52:58,284 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:52:58,284 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:52:58,285 - INFO - Processing: assets/shaders/src/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert -> assets/shaders/out/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert
+2025-03-11 21:52:58,285 - INFO - Processing shader file: assets/shaders/src/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert
+2025-03-11 21:52:58,285 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:52:58,285 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:52:58,285 - INFO - Successfully processed: assets/shaders/src/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert
+2025-03-11 21:52:58,286 - INFO - Processing: assets/shaders/src/texture_packer/textured_with_ambient_and_diffuse_lighting.frag -> assets/shaders/out/texture_packer/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:52:58,286 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:52:58,286 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:52:58,286 - INFO - Processing: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl -> assets/shaders/out/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:52:58,286 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:52:58,287 - INFO - Successfully processed: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:52:58,287 - INFO - Processing: assets/shaders/src/texture_packer/textured_with_single_bone_visualization.frag -> assets/shaders/out/texture_packer/textured_with_single_bone_visualization.frag
+2025-03-11 21:52:58,287 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured_with_single_bone_visualization.frag
+2025-03-11 21:52:58,287 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured_with_single_bone_visualization.frag
+2025-03-11 21:52:58,287 - INFO - Processing: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl -> assets/shaders/out/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:52:58,287 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:52:58,288 - INFO - Successfully processed: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:52:58,288 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert
+2025-03-11 21:52:58,288 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert
+2025-03-11 21:52:58,288 - INFO - Including file: local_to_world_4096_ubo.glsl
+2025-03-11 21:52:58,288 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:52:58,288 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:52:58,289 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:52:58,289 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:52:58,289 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:52:58,289 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:52:58,289 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:52:58,289 - INFO - Including file: lighting_input_passthrough.glsl
+2025-03-11 21:52:58,289 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:52:58,290 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert
+2025-03-11 21:52:58,290 - INFO - Processing: assets/shaders/src/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert -> assets/shaders/out/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:52:58,290 - INFO - Processing shader file: assets/shaders/src/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:52:58,290 - INFO - Successfully processed: assets/shaders/src/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:52:58,290 - INFO - Processing: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl -> assets/shaders/out/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:52:58,291 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:52:58,291 - INFO - Successfully processed: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:52:58,291 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert
+2025-03-11 21:52:58,291 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert
+2025-03-11 21:52:58,291 - INFO - Including file: local_to_world_1024_ubo.glsl
+2025-03-11 21:52:58,291 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:52:58,292 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:52:58,292 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:52:58,292 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:52:58,292 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:52:58,292 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:52:58,292 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:52:58,292 - INFO - Including file: lighting_input_passthrough.glsl
+2025-03-11 21:52:58,292 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:52:58,293 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert
+2025-03-11 21:52:58,293 - INFO - Processing: assets/shaders/src/texture_packer/textured.frag -> assets/shaders/out/texture_packer/textured.frag
+2025-03-11 21:52:58,293 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured.frag
+2025-03-11 21:52:58,293 - INFO - Including file: packed_texture_sampling.glsl
+2025-03-11 21:52:58,293 - INFO - Processing shader file: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:52:58,294 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured.frag
+2025-03-11 21:52:58,294 - INFO - Processing: assets/shaders/src/texture_packer/lighting.glsl -> assets/shaders/out/texture_packer/lighting.glsl
+2025-03-11 21:52:58,294 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting.glsl
+2025-03-11 21:52:58,294 - INFO - Successfully processed: assets/shaders/src/texture_packer/lighting.glsl
+2025-03-11 21:52:58,295 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:52:58,295 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:52:58,295 - INFO - Including file: local_to_world_1024_ubo.glsl
+2025-03-11 21:52:58,295 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:52:58,295 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:52:58,295 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:52:58,295 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:52:58,296 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:52:58,296 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:52:58,296 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:52:58,296 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:52:58,296 - INFO - Shader compilation completed successfully.
+2025-03-11 21:53:18,509 - INFO - Compiling shaders from assets/shaders/src to assets/shaders/out
+2025-03-11 21:53:18,509 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_object_id_passthrough.vert -> assets/shaders/out/CWL_v_transformation_with_object_id_passthrough.vert
+2025-03-11 21:53:18,509 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_object_id_passthrough.vert
+2025-03-11 21:53:18,509 - INFO - Including file: CWL_uniforms.glsl
+2025-03-11 21:53:18,509 - INFO - Processing shader file: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:53:18,510 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_object_id_passthrough.vert
+2025-03-11 21:53:18,510 - INFO - Processing: assets/shaders/src/signed_distance_field_text.frag -> assets/shaders/out/signed_distance_field_text.frag
+2025-03-11 21:53:18,510 - INFO - Processing shader file: assets/shaders/src/signed_distance_field_text.frag
+2025-03-11 21:53:18,510 - INFO - Successfully processed: assets/shaders/src/signed_distance_field_text.frag
+2025-03-11 21:53:18,510 - INFO - Processing: assets/shaders/src/model_loading.frag -> assets/shaders/out/model_loading.frag
+2025-03-11 21:53:18,511 - INFO - Processing shader file: assets/shaders/src/model_loading.frag
+2025-03-11 21:53:18,511 - INFO - Successfully processed: assets/shaders/src/model_loading.frag
+2025-03-11 21:53:18,511 - INFO - Processing: assets/shaders/src/fixed_color_black_temp.frag -> assets/shaders/out/fixed_color_black_temp.frag
+2025-03-11 21:53:18,511 - INFO - Processing shader file: assets/shaders/src/fixed_color_black_temp.frag
+2025-03-11 21:53:18,511 - INFO - Successfully processed: assets/shaders/src/fixed_color_black_temp.frag
+2025-03-11 21:53:18,511 - INFO - Processing: assets/shaders/src/cubemap.frag -> assets/shaders/out/cubemap.frag
+2025-03-11 21:53:18,511 - INFO - Processing shader file: assets/shaders/src/cubemap.frag
+2025-03-11 21:53:18,512 - INFO - Successfully processed: assets/shaders/src/cubemap.frag
+2025-03-11 21:53:18,512 - INFO - Processing: assets/shaders/src/solid_color.frag -> assets/shaders/out/solid_color.frag
+2025-03-11 21:53:18,512 - INFO - Processing shader file: assets/shaders/src/solid_color.frag
+2025-03-11 21:53:18,512 - INFO - Successfully processed: assets/shaders/src/solid_color.frag
+2025-03-11 21:53:18,512 - INFO - Processing: assets/shaders/src/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert -> assets/shaders/out/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:53:18,512 - INFO - Processing shader file: assets/shaders/src/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:53:18,512 - INFO - Successfully processed: assets/shaders/src/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:53:18,512 - INFO - Processing: assets/shaders/src/colored_vertices.frag -> assets/shaders/out/colored_vertices.frag
+2025-03-11 21:53:18,512 - INFO - Processing shader file: assets/shaders/src/colored_vertices.frag
+2025-03-11 21:53:18,513 - INFO - Successfully processed: assets/shaders/src/colored_vertices.frag
+2025-03-11 21:53:18,513 - INFO - Processing: assets/shaders/src/fixed_color.frag -> assets/shaders/out/fixed_color.frag
+2025-03-11 21:53:18,513 - INFO - Processing shader file: assets/shaders/src/fixed_color.frag
+2025-03-11 21:53:18,516 - INFO - Successfully processed: assets/shaders/src/fixed_color.frag
+2025-03-11 21:53:18,517 - INFO - Processing: assets/shaders/src/CWL_v_transformation.vert -> assets/shaders/out/CWL_v_transformation.vert
+2025-03-11 21:53:18,517 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation.vert
+2025-03-11 21:53:18,518 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation.vert
+2025-03-11 21:53:18,518 - INFO - Processing: assets/shaders/src/textured_with_ambient_and_diffuse_lighting.frag -> assets/shaders/out/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:53:18,518 - INFO - Processing shader file: assets/shaders/src/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:53:18,518 - INFO - Successfully processed: assets/shaders/src/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:53:18,518 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_colored_vertices.vert -> assets/shaders/out/CWL_v_transformation_with_colored_vertices.vert
+2025-03-11 21:53:18,518 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_colored_vertices.vert
+2025-03-11 21:53:18,518 - INFO - Including file: CWL_uniforms.glsl
+2025-03-11 21:53:18,518 - INFO - Processing shader file: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:53:18,518 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_colored_vertices.vert
+2025-03-11 21:53:18,519 - INFO - Processing: assets/shaders/src/CWL_v_transformation_ubos_1024_with_colored_vertex.vert -> assets/shaders/out/CWL_v_transformation_ubos_1024_with_colored_vertex.vert
+2025-03-11 21:53:18,519 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_ubos_1024_with_colored_vertex.vert
+2025-03-11 21:53:18,519 - INFO - Including file: texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:53:18,519 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:53:18,519 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_ubos_1024_with_colored_vertex.vert
+2025-03-11 21:53:18,519 - INFO - Processing: assets/shaders/src/absolute_position.vert -> assets/shaders/out/absolute_position.vert
+2025-03-11 21:53:18,519 - INFO - Processing shader file: assets/shaders/src/absolute_position.vert
+2025-03-11 21:53:18,519 - INFO - Including file: aspect_ratio_correction.glsl
+2025-03-11 21:53:18,519 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:53:18,519 - INFO - Successfully processed: assets/shaders/src/absolute_position.vert
+2025-03-11 21:53:18,520 - INFO - Processing: assets/shaders/src/textured_with_single_bone_visualization.frag -> assets/shaders/out/textured_with_single_bone_visualization.frag
+2025-03-11 21:53:18,520 - INFO - Processing shader file: assets/shaders/src/textured_with_single_bone_visualization.frag
+2025-03-11 21:53:18,520 - INFO - Successfully processed: assets/shaders/src/textured_with_single_bone_visualization.frag
+2025-03-11 21:53:18,520 - INFO - Processing: assets/shaders/src/absolute_position_textured.vert -> assets/shaders/out/absolute_position_textured.vert
+2025-03-11 21:53:18,520 - INFO - Processing shader file: assets/shaders/src/absolute_position_textured.vert
+2025-03-11 21:53:18,520 - INFO - Including file: aspect_ratio_correction.glsl
+2025-03-11 21:53:18,520 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:53:18,520 - INFO - Successfully processed: assets/shaders/src/absolute_position_textured.vert
+2025-03-11 21:53:18,520 - INFO - Processing: assets/shaders/src/colored_vertices.vert -> assets/shaders/out/colored_vertices.vert
+2025-03-11 21:53:18,520 - INFO - Processing shader file: assets/shaders/src/colored_vertices.vert
+2025-03-11 21:53:18,520 - INFO - Including file: aspect_ratio_correction.glsl
+2025-03-11 21:53:18,521 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:53:18,521 - INFO - Successfully processed: assets/shaders/src/colored_vertices.vert
+2025-03-11 21:53:18,521 - INFO - Processing: assets/shaders/src/textured_with_ambient_lighting.frag -> assets/shaders/out/textured_with_ambient_lighting.frag
+2025-03-11 21:53:18,521 - INFO - Processing shader file: assets/shaders/src/textured_with_ambient_lighting.frag
+2025-03-11 21:53:18,521 - INFO - Successfully processed: assets/shaders/src/textured_with_ambient_lighting.frag
+2025-03-11 21:53:18,521 - INFO - Processing: assets/shaders/src/cubemap.vert -> assets/shaders/out/cubemap.vert
+2025-03-11 21:53:18,521 - INFO - Processing shader file: assets/shaders/src/cubemap.vert
+2025-03-11 21:53:18,521 - INFO - Successfully processed: assets/shaders/src/cubemap.vert
+2025-03-11 21:53:18,521 - INFO - Processing: assets/shaders/src/aspect_ratio_correction.glsl -> assets/shaders/out/aspect_ratio_correction.glsl
+2025-03-11 21:53:18,521 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:53:18,522 - INFO - Successfully processed: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:53:18,522 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert -> assets/shaders/out/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:53:18,522 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:53:18,522 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:53:18,522 - INFO - Processing: assets/shaders/src/CWL_uniforms.glsl -> assets/shaders/out/CWL_uniforms.glsl
+2025-03-11 21:53:18,522 - INFO - Processing shader file: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:53:18,522 - INFO - Successfully processed: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:53:18,522 - INFO - Processing: assets/shaders/src/text.vert -> assets/shaders/out/text.vert
+2025-03-11 21:53:18,522 - INFO - Processing shader file: assets/shaders/src/text.vert
+2025-03-11 21:53:18,522 - INFO - Successfully processed: assets/shaders/src/text.vert
+2025-03-11 21:53:18,522 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_passthrough.vert -> assets/shaders/out/CWL_v_transformation_with_texture_coordinate_passthrough.vert
+2025-03-11 21:53:18,523 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_passthrough.vert
+2025-03-11 21:53:18,523 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_passthrough.vert
+2025-03-11 21:53:18,523 - INFO - Processing: assets/shaders/src/object_id.frag -> assets/shaders/out/object_id.frag
+2025-03-11 21:53:18,523 - INFO - Processing shader file: assets/shaders/src/object_id.frag
+2025-03-11 21:53:18,523 - INFO - Successfully processed: assets/shaders/src/object_id.frag
+2025-03-11 21:53:18,523 - INFO - Processing: assets/shaders/src/CWL_v_transformation_ubos.vert -> assets/shaders/out/CWL_v_transformation_ubos.vert
+2025-03-11 21:53:18,523 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_ubos.vert
+2025-03-11 21:53:18,523 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_ubos.vert
+2025-03-11 21:53:18,523 - INFO - Processing: assets/shaders/src/textured.frag -> assets/shaders/out/textured.frag
+2025-03-11 21:53:18,523 - INFO - Processing shader file: assets/shaders/src/textured.frag
+2025-03-11 21:53:18,523 - INFO - Successfully processed: assets/shaders/src/textured.frag
+2025-03-11 21:53:18,524 - INFO - Processing: assets/shaders/src/text.frag -> assets/shaders/out/text.frag
+2025-03-11 21:53:18,524 - INFO - Processing shader file: assets/shaders/src/text.frag
+2025-03-11 21:53:18,524 - INFO - Successfully processed: assets/shaders/src/text.frag
+2025-03-11 21:53:18,524 - INFO - Processing: assets/shaders/src/transform_v_with_texture_coordinate_passthrough.vert -> assets/shaders/out/transform_v_with_texture_coordinate_passthrough.vert
+2025-03-11 21:53:18,524 - INFO - Processing shader file: assets/shaders/src/transform_v_with_texture_coordinate_passthrough.vert
+2025-03-11 21:53:18,524 - INFO - Successfully processed: assets/shaders/src/transform_v_with_texture_coordinate_passthrough.vert
+2025-03-11 21:53:18,524 - INFO - Processing: assets/shaders/src/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert -> assets/shaders/out/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert
+2025-03-11 21:53:18,524 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert
+2025-03-11 21:53:18,524 - INFO - Including file: texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:53:18,524 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:53:18,524 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert
+2025-03-11 21:53:18,525 - INFO - Processing: assets/shaders/src/texture_packer/signed_distance_field_text.frag -> assets/shaders/out/texture_packer/signed_distance_field_text.frag
+2025-03-11 21:53:18,525 - INFO - Processing shader file: assets/shaders/src/texture_packer/signed_distance_field_text.frag
+2025-03-11 21:53:18,525 - INFO - Successfully processed: assets/shaders/src/texture_packer/signed_distance_field_text.frag
+2025-03-11 21:53:18,525 - INFO - Processing: assets/shaders/src/texture_packer/CWL_v_transformation_ubos_1024.vert -> assets/shaders/out/texture_packer/CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:53:18,525 - INFO - Processing shader file: assets/shaders/src/texture_packer/CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:53:18,525 - INFO - Including file: local_to_world_1024_ubo.glsl
+2025-03-11 21:53:18,525 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:53:18,525 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:53:18,525 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:53:18,525 - INFO - Successfully processed: assets/shaders/src/texture_packer/CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:53:18,526 - INFO - Processing: assets/shaders/src/texture_packer/packed_texture_sampling.glsl -> assets/shaders/out/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:53:18,526 - INFO - Processing shader file: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:53:18,526 - INFO - Successfully processed: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:53:18,526 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert
+2025-03-11 21:53:18,526 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert
+2025-03-11 21:53:18,526 - INFO - Including file: local_to_world_2048_ubo.glsl
+2025-03-11 21:53:18,526 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:53:18,526 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:53:18,526 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:53:18,526 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:53:18,526 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:53:18,527 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:53:18,527 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:53:18,527 - INFO - Including file: lighting_input_passthrough.glsl
+2025-03-11 21:53:18,527 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:53:18,527 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert
+2025-03-11 21:53:18,527 - INFO - Processing: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl -> assets/shaders/out/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:53:18,527 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:53:18,527 - INFO - Successfully processed: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:53:18,527 - INFO - Processing: assets/shaders/src/texture_packer/textured_with_multiple_lights.frag -> assets/shaders/out/texture_packer/textured_with_multiple_lights.frag
+2025-03-11 21:53:18,528 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured_with_multiple_lights.frag
+2025-03-11 21:53:18,528 - INFO - Including file: lighting.glsl
+2025-03-11 21:53:18,528 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting.glsl
+2025-03-11 21:53:18,528 - INFO - Including file: packed_texture_sampling.glsl
+2025-03-11 21:53:18,528 - INFO - Processing shader file: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:53:18,529 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured_with_multiple_lights.frag
+2025-03-11 21:53:18,529 - INFO - Processing: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl -> assets/shaders/out/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:53:18,529 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:53:18,530 - INFO - Successfully processed: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:53:18,530 - INFO - Processing: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl -> assets/shaders/out/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:53:18,530 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:53:18,531 - INFO - Successfully processed: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:53:18,531 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:53:18,531 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:53:18,531 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:53:18,531 - INFO - Processing: assets/shaders/src/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert -> assets/shaders/out/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert
+2025-03-11 21:53:18,532 - INFO - Processing shader file: assets/shaders/src/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert
+2025-03-11 21:53:18,532 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:53:18,533 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:53:18,534 - INFO - Successfully processed: assets/shaders/src/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert
+2025-03-11 21:53:18,534 - INFO - Processing: assets/shaders/src/texture_packer/textured_with_ambient_and_diffuse_lighting.frag -> assets/shaders/out/texture_packer/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:53:18,534 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:53:18,535 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:53:18,535 - INFO - Processing: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl -> assets/shaders/out/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:53:18,535 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:53:18,535 - INFO - Successfully processed: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:53:18,535 - INFO - Processing: assets/shaders/src/texture_packer/textured_with_single_bone_visualization.frag -> assets/shaders/out/texture_packer/textured_with_single_bone_visualization.frag
+2025-03-11 21:53:18,535 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured_with_single_bone_visualization.frag
+2025-03-11 21:53:18,535 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured_with_single_bone_visualization.frag
+2025-03-11 21:53:18,535 - INFO - Processing: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl -> assets/shaders/out/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:53:18,535 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:53:18,536 - INFO - Successfully processed: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:53:18,536 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert
+2025-03-11 21:53:18,536 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert
+2025-03-11 21:53:18,536 - INFO - Including file: local_to_world_4096_ubo.glsl
+2025-03-11 21:53:18,536 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:53:18,536 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:53:18,536 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:53:18,536 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:53:18,536 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:53:18,536 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:53:18,537 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:53:18,537 - INFO - Including file: lighting_input_passthrough.glsl
+2025-03-11 21:53:18,537 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:53:18,537 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert
+2025-03-11 21:53:18,537 - INFO - Processing: assets/shaders/src/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert -> assets/shaders/out/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:53:18,537 - INFO - Processing shader file: assets/shaders/src/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:53:18,537 - INFO - Successfully processed: assets/shaders/src/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:53:18,537 - INFO - Processing: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl -> assets/shaders/out/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:53:18,537 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:53:18,537 - INFO - Successfully processed: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:53:18,538 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert
+2025-03-11 21:53:18,538 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert
+2025-03-11 21:53:18,538 - INFO - Including file: local_to_world_1024_ubo.glsl
+2025-03-11 21:53:18,538 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:53:18,538 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:53:18,538 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:53:18,538 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:53:18,538 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:53:18,538 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:53:18,538 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:53:18,538 - INFO - Including file: lighting_input_passthrough.glsl
+2025-03-11 21:53:18,538 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:53:18,539 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert
+2025-03-11 21:53:18,539 - INFO - Processing: assets/shaders/src/texture_packer/textured.frag -> assets/shaders/out/texture_packer/textured.frag
+2025-03-11 21:53:18,539 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured.frag
+2025-03-11 21:53:18,539 - INFO - Including file: packed_texture_sampling.glsl
+2025-03-11 21:53:18,539 - INFO - Processing shader file: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:53:18,539 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured.frag
+2025-03-11 21:53:18,539 - INFO - Processing: assets/shaders/src/texture_packer/lighting.glsl -> assets/shaders/out/texture_packer/lighting.glsl
+2025-03-11 21:53:18,539 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting.glsl
+2025-03-11 21:53:18,539 - INFO - Successfully processed: assets/shaders/src/texture_packer/lighting.glsl
+2025-03-11 21:53:18,540 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:53:18,540 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:53:18,540 - INFO - Including file: local_to_world_1024_ubo.glsl
+2025-03-11 21:53:18,540 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:53:18,540 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:53:18,540 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:53:18,540 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:53:18,540 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:53:18,540 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:53:18,540 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:53:18,540 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:53:18,540 - INFO - Shader compilation completed successfully.
+2025-03-11 21:58:37,636 - INFO - Compiling shaders from assets/shaders/src to assets/shaders/out
+2025-03-11 21:58:37,636 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_object_id_passthrough.vert -> assets/shaders/out/CWL_v_transformation_with_object_id_passthrough.vert
+2025-03-11 21:58:37,643 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_object_id_passthrough.vert
+2025-03-11 21:58:37,644 - INFO - Including file: CWL_uniforms.glsl
+2025-03-11 21:58:37,644 - INFO - Processing shader file: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:58:37,644 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_object_id_passthrough.vert
+2025-03-11 21:58:37,644 - INFO - Processing: assets/shaders/src/signed_distance_field_text.frag -> assets/shaders/out/signed_distance_field_text.frag
+2025-03-11 21:58:37,644 - INFO - Processing shader file: assets/shaders/src/signed_distance_field_text.frag
+2025-03-11 21:58:37,644 - INFO - Successfully processed: assets/shaders/src/signed_distance_field_text.frag
+2025-03-11 21:58:37,645 - INFO - Processing: assets/shaders/src/model_loading.frag -> assets/shaders/out/model_loading.frag
+2025-03-11 21:58:37,645 - INFO - Processing shader file: assets/shaders/src/model_loading.frag
+2025-03-11 21:58:37,645 - INFO - Successfully processed: assets/shaders/src/model_loading.frag
+2025-03-11 21:58:37,645 - INFO - Processing: assets/shaders/src/fixed_color_black_temp.frag -> assets/shaders/out/fixed_color_black_temp.frag
+2025-03-11 21:58:37,645 - INFO - Processing shader file: assets/shaders/src/fixed_color_black_temp.frag
+2025-03-11 21:58:37,645 - INFO - Successfully processed: assets/shaders/src/fixed_color_black_temp.frag
+2025-03-11 21:58:37,645 - INFO - Processing: assets/shaders/src/cubemap.frag -> assets/shaders/out/cubemap.frag
+2025-03-11 21:58:37,645 - INFO - Processing shader file: assets/shaders/src/cubemap.frag
+2025-03-11 21:58:37,645 - INFO - Successfully processed: assets/shaders/src/cubemap.frag
+2025-03-11 21:58:37,645 - INFO - Processing: assets/shaders/src/solid_color.frag -> assets/shaders/out/solid_color.frag
+2025-03-11 21:58:37,646 - INFO - Processing shader file: assets/shaders/src/solid_color.frag
+2025-03-11 21:58:37,646 - INFO - Successfully processed: assets/shaders/src/solid_color.frag
+2025-03-11 21:58:37,646 - INFO - Processing: assets/shaders/src/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert -> assets/shaders/out/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:58:37,646 - INFO - Processing shader file: assets/shaders/src/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:58:37,646 - INFO - Successfully processed: assets/shaders/src/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:58:37,646 - INFO - Processing: assets/shaders/src/colored_vertices.frag -> assets/shaders/out/colored_vertices.frag
+2025-03-11 21:58:37,646 - INFO - Processing shader file: assets/shaders/src/colored_vertices.frag
+2025-03-11 21:58:37,646 - INFO - Successfully processed: assets/shaders/src/colored_vertices.frag
+2025-03-11 21:58:37,646 - INFO - Processing: assets/shaders/src/fixed_color.frag -> assets/shaders/out/fixed_color.frag
+2025-03-11 21:58:37,646 - INFO - Processing shader file: assets/shaders/src/fixed_color.frag
+2025-03-11 21:58:37,647 - INFO - Successfully processed: assets/shaders/src/fixed_color.frag
+2025-03-11 21:58:37,647 - INFO - Processing: assets/shaders/src/CWL_v_transformation.vert -> assets/shaders/out/CWL_v_transformation.vert
+2025-03-11 21:58:37,647 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation.vert
+2025-03-11 21:58:37,647 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation.vert
+2025-03-11 21:58:37,647 - INFO - Processing: assets/shaders/src/textured_with_ambient_and_diffuse_lighting.frag -> assets/shaders/out/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:58:37,647 - INFO - Processing shader file: assets/shaders/src/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:58:37,647 - INFO - Successfully processed: assets/shaders/src/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:58:37,647 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_colored_vertices.vert -> assets/shaders/out/CWL_v_transformation_with_colored_vertices.vert
+2025-03-11 21:58:37,647 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_colored_vertices.vert
+2025-03-11 21:58:37,647 - INFO - Including file: CWL_uniforms.glsl
+2025-03-11 21:58:37,648 - INFO - Processing shader file: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:58:37,648 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_colored_vertices.vert
+2025-03-11 21:58:37,648 - INFO - Processing: assets/shaders/src/CWL_v_transformation_ubos_1024_with_colored_vertex.vert -> assets/shaders/out/CWL_v_transformation_ubos_1024_with_colored_vertex.vert
+2025-03-11 21:58:37,648 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_ubos_1024_with_colored_vertex.vert
+2025-03-11 21:58:37,648 - INFO - Including file: texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:58:37,648 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:58:37,648 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_ubos_1024_with_colored_vertex.vert
+2025-03-11 21:58:37,648 - INFO - Processing: assets/shaders/src/absolute_position.vert -> assets/shaders/out/absolute_position.vert
+2025-03-11 21:58:37,648 - INFO - Processing shader file: assets/shaders/src/absolute_position.vert
+2025-03-11 21:58:37,648 - INFO - Including file: aspect_ratio_correction.glsl
+2025-03-11 21:58:37,648 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:58:37,649 - INFO - Successfully processed: assets/shaders/src/absolute_position.vert
+2025-03-11 21:58:37,649 - INFO - Processing: assets/shaders/src/textured_with_single_bone_visualization.frag -> assets/shaders/out/textured_with_single_bone_visualization.frag
+2025-03-11 21:58:37,649 - INFO - Processing shader file: assets/shaders/src/textured_with_single_bone_visualization.frag
+2025-03-11 21:58:37,649 - INFO - Successfully processed: assets/shaders/src/textured_with_single_bone_visualization.frag
+2025-03-11 21:58:37,649 - INFO - Processing: assets/shaders/src/absolute_position_textured.vert -> assets/shaders/out/absolute_position_textured.vert
+2025-03-11 21:58:37,649 - INFO - Processing shader file: assets/shaders/src/absolute_position_textured.vert
+2025-03-11 21:58:37,649 - INFO - Including file: aspect_ratio_correction.glsl
+2025-03-11 21:58:37,649 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:58:37,649 - INFO - Successfully processed: assets/shaders/src/absolute_position_textured.vert
+2025-03-11 21:58:37,649 - INFO - Processing: assets/shaders/src/colored_vertices.vert -> assets/shaders/out/colored_vertices.vert
+2025-03-11 21:58:37,650 - INFO - Processing shader file: assets/shaders/src/colored_vertices.vert
+2025-03-11 21:58:37,650 - INFO - Including file: aspect_ratio_correction.glsl
+2025-03-11 21:58:37,650 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:58:37,650 - INFO - Successfully processed: assets/shaders/src/colored_vertices.vert
+2025-03-11 21:58:37,650 - INFO - Processing: assets/shaders/src/textured_with_ambient_lighting.frag -> assets/shaders/out/textured_with_ambient_lighting.frag
+2025-03-11 21:58:37,650 - INFO - Processing shader file: assets/shaders/src/textured_with_ambient_lighting.frag
+2025-03-11 21:58:37,650 - INFO - Successfully processed: assets/shaders/src/textured_with_ambient_lighting.frag
+2025-03-11 21:58:37,650 - INFO - Processing: assets/shaders/src/cubemap.vert -> assets/shaders/out/cubemap.vert
+2025-03-11 21:58:37,650 - INFO - Processing shader file: assets/shaders/src/cubemap.vert
+2025-03-11 21:58:37,650 - INFO - Successfully processed: assets/shaders/src/cubemap.vert
+2025-03-11 21:58:37,650 - INFO - Processing: assets/shaders/src/aspect_ratio_correction.glsl -> assets/shaders/out/aspect_ratio_correction.glsl
+2025-03-11 21:58:37,651 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:58:37,651 - INFO - Successfully processed: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:58:37,651 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert -> assets/shaders/out/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:58:37,651 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:58:37,651 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:58:37,651 - INFO - Processing: assets/shaders/src/CWL_uniforms.glsl -> assets/shaders/out/CWL_uniforms.glsl
+2025-03-11 21:58:37,651 - INFO - Processing shader file: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:58:37,651 - INFO - Successfully processed: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:58:37,651 - INFO - Processing: assets/shaders/src/text.vert -> assets/shaders/out/text.vert
+2025-03-11 21:58:37,651 - INFO - Processing shader file: assets/shaders/src/text.vert
+2025-03-11 21:58:37,652 - INFO - Successfully processed: assets/shaders/src/text.vert
+2025-03-11 21:58:37,652 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_passthrough.vert -> assets/shaders/out/CWL_v_transformation_with_texture_coordinate_passthrough.vert
+2025-03-11 21:58:37,652 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_passthrough.vert
+2025-03-11 21:58:37,652 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_passthrough.vert
+2025-03-11 21:58:37,652 - INFO - Processing: assets/shaders/src/object_id.frag -> assets/shaders/out/object_id.frag
+2025-03-11 21:58:37,652 - INFO - Processing shader file: assets/shaders/src/object_id.frag
+2025-03-11 21:58:37,652 - INFO - Successfully processed: assets/shaders/src/object_id.frag
+2025-03-11 21:58:37,652 - INFO - Processing: assets/shaders/src/CWL_v_transformation_ubos.vert -> assets/shaders/out/CWL_v_transformation_ubos.vert
+2025-03-11 21:58:37,652 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_ubos.vert
+2025-03-11 21:58:37,652 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_ubos.vert
+2025-03-11 21:58:37,653 - INFO - Processing: assets/shaders/src/textured.frag -> assets/shaders/out/textured.frag
+2025-03-11 21:58:37,653 - INFO - Processing shader file: assets/shaders/src/textured.frag
+2025-03-11 21:58:37,653 - INFO - Successfully processed: assets/shaders/src/textured.frag
+2025-03-11 21:58:37,653 - INFO - Processing: assets/shaders/src/text.frag -> assets/shaders/out/text.frag
+2025-03-11 21:58:37,653 - INFO - Processing shader file: assets/shaders/src/text.frag
+2025-03-11 21:58:37,653 - INFO - Successfully processed: assets/shaders/src/text.frag
+2025-03-11 21:58:37,653 - INFO - Processing: assets/shaders/src/transform_v_with_texture_coordinate_passthrough.vert -> assets/shaders/out/transform_v_with_texture_coordinate_passthrough.vert
+2025-03-11 21:58:37,653 - INFO - Processing shader file: assets/shaders/src/transform_v_with_texture_coordinate_passthrough.vert
+2025-03-11 21:58:37,653 - INFO - Successfully processed: assets/shaders/src/transform_v_with_texture_coordinate_passthrough.vert
+2025-03-11 21:58:37,653 - INFO - Processing: assets/shaders/src/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert -> assets/shaders/out/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert
+2025-03-11 21:58:37,653 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert
+2025-03-11 21:58:37,654 - INFO - Including file: texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:58:37,654 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:58:37,654 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert
+2025-03-11 21:58:37,654 - INFO - Processing: assets/shaders/src/texture_packer/signed_distance_field_text.frag -> assets/shaders/out/texture_packer/signed_distance_field_text.frag
+2025-03-11 21:58:37,654 - INFO - Processing shader file: assets/shaders/src/texture_packer/signed_distance_field_text.frag
+2025-03-11 21:58:37,654 - INFO - Successfully processed: assets/shaders/src/texture_packer/signed_distance_field_text.frag
+2025-03-11 21:58:37,654 - INFO - Processing: assets/shaders/src/texture_packer/CWL_v_transformation_ubos_1024.vert -> assets/shaders/out/texture_packer/CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:58:37,654 - INFO - Processing shader file: assets/shaders/src/texture_packer/CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:58:37,654 - INFO - Including file: local_to_world_1024_ubo.glsl
+2025-03-11 21:58:37,654 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:58:37,654 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:58:37,655 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:58:37,655 - INFO - Successfully processed: assets/shaders/src/texture_packer/CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:58:37,655 - INFO - Processing: assets/shaders/src/texture_packer/packed_texture_sampling.glsl -> assets/shaders/out/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:58:37,655 - INFO - Processing shader file: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:58:37,655 - INFO - Successfully processed: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:58:37,655 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert
+2025-03-11 21:58:37,655 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert
+2025-03-11 21:58:37,655 - INFO - Including file: local_to_world_2048_ubo.glsl
+2025-03-11 21:58:37,655 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:58:37,655 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:58:37,656 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:58:37,656 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:58:37,656 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:58:37,656 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:58:37,656 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:58:37,656 - INFO - Including file: lighting_input_passthrough.glsl
+2025-03-11 21:58:37,656 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:58:37,656 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert
+2025-03-11 21:58:37,657 - INFO - Processing: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl -> assets/shaders/out/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:58:37,657 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:58:37,658 - INFO - Successfully processed: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:58:37,658 - INFO - Processing: assets/shaders/src/texture_packer/textured_with_multiple_lights.frag -> assets/shaders/out/texture_packer/textured_with_multiple_lights.frag
+2025-03-11 21:58:37,658 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured_with_multiple_lights.frag
+2025-03-11 21:58:37,659 - INFO - Including file: lighting.glsl
+2025-03-11 21:58:37,660 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting.glsl
+2025-03-11 21:58:37,661 - INFO - Including file: packed_texture_sampling.glsl
+2025-03-11 21:58:37,661 - INFO - Processing shader file: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:58:37,662 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured_with_multiple_lights.frag
+2025-03-11 21:58:37,662 - INFO - Processing: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl -> assets/shaders/out/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:58:37,662 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:58:37,662 - INFO - Successfully processed: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:58:37,662 - INFO - Processing: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl -> assets/shaders/out/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:58:37,662 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:58:37,662 - INFO - Successfully processed: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:58:37,662 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:58:37,662 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:58:37,663 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:58:37,663 - INFO - Processing: assets/shaders/src/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert -> assets/shaders/out/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert
+2025-03-11 21:58:37,663 - INFO - Processing shader file: assets/shaders/src/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert
+2025-03-11 21:58:37,663 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:58:37,663 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:58:37,663 - INFO - Successfully processed: assets/shaders/src/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert
+2025-03-11 21:58:37,663 - INFO - Processing: assets/shaders/src/texture_packer/textured_with_ambient_and_diffuse_lighting.frag -> assets/shaders/out/texture_packer/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:58:37,663 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:58:37,663 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:58:37,663 - INFO - Processing: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl -> assets/shaders/out/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:58:37,664 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:58:37,664 - INFO - Successfully processed: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:58:37,664 - INFO - Processing: assets/shaders/src/texture_packer/textured_with_single_bone_visualization.frag -> assets/shaders/out/texture_packer/textured_with_single_bone_visualization.frag
+2025-03-11 21:58:37,664 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured_with_single_bone_visualization.frag
+2025-03-11 21:58:37,664 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured_with_single_bone_visualization.frag
+2025-03-11 21:58:37,664 - INFO - Processing: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl -> assets/shaders/out/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:58:37,664 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:58:37,664 - INFO - Successfully processed: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:58:37,664 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert
+2025-03-11 21:58:37,664 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert
+2025-03-11 21:58:37,665 - INFO - Including file: local_to_world_4096_ubo.glsl
+2025-03-11 21:58:37,665 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:58:37,665 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:58:37,665 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:58:37,665 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:58:37,665 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:58:37,665 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:58:37,665 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:58:37,665 - INFO - Including file: lighting_input_passthrough.glsl
+2025-03-11 21:58:37,665 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:58:37,665 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert
+2025-03-11 21:58:37,665 - INFO - Processing: assets/shaders/src/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert -> assets/shaders/out/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:58:37,666 - INFO - Processing shader file: assets/shaders/src/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:58:37,666 - INFO - Successfully processed: assets/shaders/src/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:58:37,666 - INFO - Processing: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl -> assets/shaders/out/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:58:37,666 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:58:37,666 - INFO - Successfully processed: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:58:37,666 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert
+2025-03-11 21:58:37,666 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert
+2025-03-11 21:58:37,666 - INFO - Including file: local_to_world_1024_ubo.glsl
+2025-03-11 21:58:37,666 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:58:37,666 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:58:37,666 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:58:37,666 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:58:37,667 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:58:37,667 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:58:37,667 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:58:37,667 - INFO - Including file: lighting_input_passthrough.glsl
+2025-03-11 21:58:37,667 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:58:37,667 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert
+2025-03-11 21:58:37,667 - INFO - Processing: assets/shaders/src/texture_packer/textured.frag -> assets/shaders/out/texture_packer/textured.frag
+2025-03-11 21:58:37,667 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured.frag
+2025-03-11 21:58:37,667 - INFO - Including file: packed_texture_sampling.glsl
+2025-03-11 21:58:37,667 - INFO - Processing shader file: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:58:37,667 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured.frag
+2025-03-11 21:58:37,668 - INFO - Processing: assets/shaders/src/texture_packer/lighting.glsl -> assets/shaders/out/texture_packer/lighting.glsl
+2025-03-11 21:58:37,668 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting.glsl
+2025-03-11 21:58:37,668 - INFO - Successfully processed: assets/shaders/src/texture_packer/lighting.glsl
+2025-03-11 21:58:37,668 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:58:37,668 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:58:37,668 - INFO - Including file: local_to_world_1024_ubo.glsl
+2025-03-11 21:58:37,668 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:58:37,668 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:58:37,669 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:58:37,669 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:58:37,669 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:58:37,669 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:58:37,669 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:58:37,669 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:58:37,669 - INFO - Shader compilation completed successfully.
+2025-03-11 21:59:35,428 - INFO - Compiling shaders from assets/shaders/src to assets/shaders/out
+2025-03-11 21:59:35,429 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_object_id_passthrough.vert -> assets/shaders/out/CWL_v_transformation_with_object_id_passthrough.vert
+2025-03-11 21:59:35,429 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_object_id_passthrough.vert
+2025-03-11 21:59:35,429 - INFO - Including file: CWL_uniforms.glsl
+2025-03-11 21:59:35,429 - INFO - Processing shader file: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:59:35,430 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_object_id_passthrough.vert
+2025-03-11 21:59:35,430 - INFO - Processing: assets/shaders/src/signed_distance_field_text.frag -> assets/shaders/out/signed_distance_field_text.frag
+2025-03-11 21:59:35,430 - INFO - Processing shader file: assets/shaders/src/signed_distance_field_text.frag
+2025-03-11 21:59:35,430 - INFO - Successfully processed: assets/shaders/src/signed_distance_field_text.frag
+2025-03-11 21:59:35,430 - INFO - Processing: assets/shaders/src/model_loading.frag -> assets/shaders/out/model_loading.frag
+2025-03-11 21:59:35,430 - INFO - Processing shader file: assets/shaders/src/model_loading.frag
+2025-03-11 21:59:35,431 - INFO - Successfully processed: assets/shaders/src/model_loading.frag
+2025-03-11 21:59:35,431 - INFO - Processing: assets/shaders/src/fixed_color_black_temp.frag -> assets/shaders/out/fixed_color_black_temp.frag
+2025-03-11 21:59:35,431 - INFO - Processing shader file: assets/shaders/src/fixed_color_black_temp.frag
+2025-03-11 21:59:35,431 - INFO - Successfully processed: assets/shaders/src/fixed_color_black_temp.frag
+2025-03-11 21:59:35,431 - INFO - Processing: assets/shaders/src/cubemap.frag -> assets/shaders/out/cubemap.frag
+2025-03-11 21:59:35,431 - INFO - Processing shader file: assets/shaders/src/cubemap.frag
+2025-03-11 21:59:35,431 - INFO - Successfully processed: assets/shaders/src/cubemap.frag
+2025-03-11 21:59:35,431 - INFO - Processing: assets/shaders/src/solid_color.frag -> assets/shaders/out/solid_color.frag
+2025-03-11 21:59:35,432 - INFO - Processing shader file: assets/shaders/src/solid_color.frag
+2025-03-11 21:59:35,432 - INFO - Successfully processed: assets/shaders/src/solid_color.frag
+2025-03-11 21:59:35,432 - INFO - Processing: assets/shaders/src/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert -> assets/shaders/out/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:59:35,432 - INFO - Processing shader file: assets/shaders/src/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:59:35,432 - INFO - Successfully processed: assets/shaders/src/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:59:35,432 - INFO - Processing: assets/shaders/src/colored_vertices.frag -> assets/shaders/out/colored_vertices.frag
+2025-03-11 21:59:35,433 - INFO - Processing shader file: assets/shaders/src/colored_vertices.frag
+2025-03-11 21:59:35,433 - INFO - Successfully processed: assets/shaders/src/colored_vertices.frag
+2025-03-11 21:59:35,433 - INFO - Processing: assets/shaders/src/fixed_color.frag -> assets/shaders/out/fixed_color.frag
+2025-03-11 21:59:35,433 - INFO - Processing shader file: assets/shaders/src/fixed_color.frag
+2025-03-11 21:59:35,433 - INFO - Successfully processed: assets/shaders/src/fixed_color.frag
+2025-03-11 21:59:35,434 - INFO - Processing: assets/shaders/src/CWL_v_transformation.vert -> assets/shaders/out/CWL_v_transformation.vert
+2025-03-11 21:59:35,434 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation.vert
+2025-03-11 21:59:35,436 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation.vert
+2025-03-11 21:59:35,436 - INFO - Processing: assets/shaders/src/textured_with_ambient_and_diffuse_lighting.frag -> assets/shaders/out/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:59:35,437 - INFO - Processing shader file: assets/shaders/src/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:59:35,437 - INFO - Successfully processed: assets/shaders/src/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:59:35,438 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_colored_vertices.vert -> assets/shaders/out/CWL_v_transformation_with_colored_vertices.vert
+2025-03-11 21:59:35,438 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_colored_vertices.vert
+2025-03-11 21:59:35,438 - INFO - Including file: CWL_uniforms.glsl
+2025-03-11 21:59:35,438 - INFO - Processing shader file: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:59:35,438 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_colored_vertices.vert
+2025-03-11 21:59:35,438 - INFO - Processing: assets/shaders/src/CWL_v_transformation_ubos_1024_with_colored_vertex.vert -> assets/shaders/out/CWL_v_transformation_ubos_1024_with_colored_vertex.vert
+2025-03-11 21:59:35,438 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_ubos_1024_with_colored_vertex.vert
+2025-03-11 21:59:35,438 - INFO - Including file: texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:59:35,438 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:59:35,438 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_ubos_1024_with_colored_vertex.vert
+2025-03-11 21:59:35,439 - INFO - Processing: assets/shaders/src/absolute_position.vert -> assets/shaders/out/absolute_position.vert
+2025-03-11 21:59:35,439 - INFO - Processing shader file: assets/shaders/src/absolute_position.vert
+2025-03-11 21:59:35,439 - INFO - Including file: aspect_ratio_correction.glsl
+2025-03-11 21:59:35,439 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:59:35,439 - INFO - Successfully processed: assets/shaders/src/absolute_position.vert
+2025-03-11 21:59:35,439 - INFO - Processing: assets/shaders/src/textured_with_single_bone_visualization.frag -> assets/shaders/out/textured_with_single_bone_visualization.frag
+2025-03-11 21:59:35,439 - INFO - Processing shader file: assets/shaders/src/textured_with_single_bone_visualization.frag
+2025-03-11 21:59:35,439 - INFO - Successfully processed: assets/shaders/src/textured_with_single_bone_visualization.frag
+2025-03-11 21:59:35,440 - INFO - Processing: assets/shaders/src/absolute_position_textured.vert -> assets/shaders/out/absolute_position_textured.vert
+2025-03-11 21:59:35,440 - INFO - Processing shader file: assets/shaders/src/absolute_position_textured.vert
+2025-03-11 21:59:35,440 - INFO - Including file: aspect_ratio_correction.glsl
+2025-03-11 21:59:35,440 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:59:35,440 - INFO - Successfully processed: assets/shaders/src/absolute_position_textured.vert
+2025-03-11 21:59:35,440 - INFO - Processing: assets/shaders/src/colored_vertices.vert -> assets/shaders/out/colored_vertices.vert
+2025-03-11 21:59:35,440 - INFO - Processing shader file: assets/shaders/src/colored_vertices.vert
+2025-03-11 21:59:35,440 - INFO - Including file: aspect_ratio_correction.glsl
+2025-03-11 21:59:35,440 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:59:35,440 - INFO - Successfully processed: assets/shaders/src/colored_vertices.vert
+2025-03-11 21:59:35,441 - INFO - Processing: assets/shaders/src/textured_with_ambient_lighting.frag -> assets/shaders/out/textured_with_ambient_lighting.frag
+2025-03-11 21:59:35,441 - INFO - Processing shader file: assets/shaders/src/textured_with_ambient_lighting.frag
+2025-03-11 21:59:35,441 - INFO - Successfully processed: assets/shaders/src/textured_with_ambient_lighting.frag
+2025-03-11 21:59:35,441 - INFO - Processing: assets/shaders/src/cubemap.vert -> assets/shaders/out/cubemap.vert
+2025-03-11 21:59:35,441 - INFO - Processing shader file: assets/shaders/src/cubemap.vert
+2025-03-11 21:59:35,441 - INFO - Successfully processed: assets/shaders/src/cubemap.vert
+2025-03-11 21:59:35,441 - INFO - Processing: assets/shaders/src/aspect_ratio_correction.glsl -> assets/shaders/out/aspect_ratio_correction.glsl
+2025-03-11 21:59:35,441 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:59:35,441 - INFO - Successfully processed: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 21:59:35,442 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert -> assets/shaders/out/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:59:35,442 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:59:35,442 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:59:35,442 - INFO - Processing: assets/shaders/src/CWL_uniforms.glsl -> assets/shaders/out/CWL_uniforms.glsl
+2025-03-11 21:59:35,442 - INFO - Processing shader file: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:59:35,442 - INFO - Successfully processed: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 21:59:35,442 - INFO - Processing: assets/shaders/src/text.vert -> assets/shaders/out/text.vert
+2025-03-11 21:59:35,442 - INFO - Processing shader file: assets/shaders/src/text.vert
+2025-03-11 21:59:35,442 - INFO - Successfully processed: assets/shaders/src/text.vert
+2025-03-11 21:59:35,443 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_passthrough.vert -> assets/shaders/out/CWL_v_transformation_with_texture_coordinate_passthrough.vert
+2025-03-11 21:59:35,443 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_passthrough.vert
+2025-03-11 21:59:35,443 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_passthrough.vert
+2025-03-11 21:59:35,443 - INFO - Processing: assets/shaders/src/object_id.frag -> assets/shaders/out/object_id.frag
+2025-03-11 21:59:35,443 - INFO - Processing shader file: assets/shaders/src/object_id.frag
+2025-03-11 21:59:35,443 - INFO - Successfully processed: assets/shaders/src/object_id.frag
+2025-03-11 21:59:35,443 - INFO - Processing: assets/shaders/src/CWL_v_transformation_ubos.vert -> assets/shaders/out/CWL_v_transformation_ubos.vert
+2025-03-11 21:59:35,443 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_ubos.vert
+2025-03-11 21:59:35,444 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_ubos.vert
+2025-03-11 21:59:35,444 - INFO - Processing: assets/shaders/src/textured.frag -> assets/shaders/out/textured.frag
+2025-03-11 21:59:35,444 - INFO - Processing shader file: assets/shaders/src/textured.frag
+2025-03-11 21:59:35,444 - INFO - Successfully processed: assets/shaders/src/textured.frag
+2025-03-11 21:59:35,444 - INFO - Processing: assets/shaders/src/text.frag -> assets/shaders/out/text.frag
+2025-03-11 21:59:35,444 - INFO - Processing shader file: assets/shaders/src/text.frag
+2025-03-11 21:59:35,444 - INFO - Successfully processed: assets/shaders/src/text.frag
+2025-03-11 21:59:35,444 - INFO - Processing: assets/shaders/src/transform_v_with_texture_coordinate_passthrough.vert -> assets/shaders/out/transform_v_with_texture_coordinate_passthrough.vert
+2025-03-11 21:59:35,444 - INFO - Processing shader file: assets/shaders/src/transform_v_with_texture_coordinate_passthrough.vert
+2025-03-11 21:59:35,445 - INFO - Successfully processed: assets/shaders/src/transform_v_with_texture_coordinate_passthrough.vert
+2025-03-11 21:59:35,445 - INFO - Processing: assets/shaders/src/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert -> assets/shaders/out/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert
+2025-03-11 21:59:35,445 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert
+2025-03-11 21:59:35,445 - INFO - Including file: texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:59:35,445 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:59:35,445 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert
+2025-03-11 21:59:35,445 - INFO - Processing: assets/shaders/src/texture_packer/signed_distance_field_text.frag -> assets/shaders/out/texture_packer/signed_distance_field_text.frag
+2025-03-11 21:59:35,445 - INFO - Processing shader file: assets/shaders/src/texture_packer/signed_distance_field_text.frag
+2025-03-11 21:59:35,445 - INFO - Successfully processed: assets/shaders/src/texture_packer/signed_distance_field_text.frag
+2025-03-11 21:59:35,446 - INFO - Processing: assets/shaders/src/texture_packer/CWL_v_transformation_ubos_1024.vert -> assets/shaders/out/texture_packer/CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:59:35,446 - INFO - Processing shader file: assets/shaders/src/texture_packer/CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:59:35,446 - INFO - Including file: local_to_world_1024_ubo.glsl
+2025-03-11 21:59:35,446 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:59:35,446 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:59:35,446 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:59:35,446 - INFO - Successfully processed: assets/shaders/src/texture_packer/CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:59:35,446 - INFO - Processing: assets/shaders/src/texture_packer/packed_texture_sampling.glsl -> assets/shaders/out/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:59:35,447 - INFO - Processing shader file: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:59:35,447 - INFO - Successfully processed: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:59:35,447 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert
+2025-03-11 21:59:35,447 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert
+2025-03-11 21:59:35,447 - INFO - Including file: local_to_world_2048_ubo.glsl
+2025-03-11 21:59:35,447 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:59:35,447 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:59:35,448 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:59:35,448 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:59:35,448 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:59:35,448 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:59:35,448 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:59:35,448 - INFO - Including file: lighting_input_passthrough.glsl
+2025-03-11 21:59:35,448 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:59:35,448 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert
+2025-03-11 21:59:35,449 - INFO - Processing: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl -> assets/shaders/out/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:59:35,449 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:59:35,449 - INFO - Successfully processed: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:59:35,450 - INFO - Processing: assets/shaders/src/texture_packer/textured_with_multiple_lights.frag -> assets/shaders/out/texture_packer/textured_with_multiple_lights.frag
+2025-03-11 21:59:35,450 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured_with_multiple_lights.frag
+2025-03-11 21:59:35,450 - INFO - Including file: lighting.glsl
+2025-03-11 21:59:35,450 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting.glsl
+2025-03-11 21:59:35,450 - INFO - Including file: packed_texture_sampling.glsl
+2025-03-11 21:59:35,451 - INFO - Processing shader file: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:59:35,451 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured_with_multiple_lights.frag
+2025-03-11 21:59:35,452 - INFO - Processing: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl -> assets/shaders/out/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:59:35,452 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:59:35,453 - INFO - Successfully processed: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:59:35,453 - INFO - Processing: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl -> assets/shaders/out/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:59:35,454 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:59:35,454 - INFO - Successfully processed: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:59:35,455 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:59:35,455 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:59:35,455 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 21:59:35,455 - INFO - Processing: assets/shaders/src/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert -> assets/shaders/out/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert
+2025-03-11 21:59:35,455 - INFO - Processing shader file: assets/shaders/src/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert
+2025-03-11 21:59:35,455 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:59:35,455 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:59:35,455 - INFO - Successfully processed: assets/shaders/src/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert
+2025-03-11 21:59:35,456 - INFO - Processing: assets/shaders/src/texture_packer/textured_with_ambient_and_diffuse_lighting.frag -> assets/shaders/out/texture_packer/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:59:35,456 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:59:35,456 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 21:59:35,456 - INFO - Processing: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl -> assets/shaders/out/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:59:35,456 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:59:35,456 - INFO - Successfully processed: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:59:35,456 - INFO - Processing: assets/shaders/src/texture_packer/textured_with_single_bone_visualization.frag -> assets/shaders/out/texture_packer/textured_with_single_bone_visualization.frag
+2025-03-11 21:59:35,456 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured_with_single_bone_visualization.frag
+2025-03-11 21:59:35,457 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured_with_single_bone_visualization.frag
+2025-03-11 21:59:35,457 - INFO - Processing: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl -> assets/shaders/out/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:59:35,457 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:59:35,457 - INFO - Successfully processed: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:59:35,457 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert
+2025-03-11 21:59:35,457 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert
+2025-03-11 21:59:35,457 - INFO - Including file: local_to_world_4096_ubo.glsl
+2025-03-11 21:59:35,457 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 21:59:35,457 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:59:35,457 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:59:35,457 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:59:35,458 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:59:35,458 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:59:35,458 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:59:35,458 - INFO - Including file: lighting_input_passthrough.glsl
+2025-03-11 21:59:35,458 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:59:35,458 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert
+2025-03-11 21:59:35,458 - INFO - Processing: assets/shaders/src/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert -> assets/shaders/out/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:59:35,458 - INFO - Processing shader file: assets/shaders/src/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:59:35,459 - INFO - Successfully processed: assets/shaders/src/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 21:59:35,459 - INFO - Processing: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl -> assets/shaders/out/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:59:35,459 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:59:35,459 - INFO - Successfully processed: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 21:59:35,459 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert
+2025-03-11 21:59:35,459 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert
+2025-03-11 21:59:35,459 - INFO - Including file: local_to_world_1024_ubo.glsl
+2025-03-11 21:59:35,459 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:59:35,459 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:59:35,459 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:59:35,459 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:59:35,460 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:59:35,460 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:59:35,460 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:59:35,460 - INFO - Including file: lighting_input_passthrough.glsl
+2025-03-11 21:59:35,460 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 21:59:35,460 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert
+2025-03-11 21:59:35,460 - INFO - Processing: assets/shaders/src/texture_packer/textured.frag -> assets/shaders/out/texture_packer/textured.frag
+2025-03-11 21:59:35,460 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured.frag
+2025-03-11 21:59:35,460 - INFO - Including file: packed_texture_sampling.glsl
+2025-03-11 21:59:35,460 - INFO - Processing shader file: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 21:59:35,461 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured.frag
+2025-03-11 21:59:35,461 - INFO - Processing: assets/shaders/src/texture_packer/lighting.glsl -> assets/shaders/out/texture_packer/lighting.glsl
+2025-03-11 21:59:35,461 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting.glsl
+2025-03-11 21:59:35,461 - INFO - Successfully processed: assets/shaders/src/texture_packer/lighting.glsl
+2025-03-11 21:59:35,461 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:59:35,461 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:59:35,461 - INFO - Including file: local_to_world_1024_ubo.glsl
+2025-03-11 21:59:35,461 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 21:59:35,462 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 21:59:35,462 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 21:59:35,462 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 21:59:35,462 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 21:59:35,462 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 21:59:35,462 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 21:59:35,462 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert
+2025-03-11 21:59:35,462 - INFO - Shader compilation completed successfully.
+2025-03-11 22:00:44,834 - INFO - Compiling shaders from assets/shaders/src to assets/shaders/out
+2025-03-11 22:00:44,834 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_object_id_passthrough.vert -> assets/shaders/out/CWL_v_transformation_with_object_id_passthrough.vert
+2025-03-11 22:00:44,834 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_object_id_passthrough.vert
+2025-03-11 22:00:44,834 - INFO - Including file: CWL_uniforms.glsl
+2025-03-11 22:00:44,835 - INFO - Processing shader file: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 22:00:44,835 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_object_id_passthrough.vert
+2025-03-11 22:00:44,835 - INFO - Processing: assets/shaders/src/signed_distance_field_text.frag -> assets/shaders/out/signed_distance_field_text.frag
+2025-03-11 22:00:44,835 - INFO - Processing shader file: assets/shaders/src/signed_distance_field_text.frag
+2025-03-11 22:00:44,835 - INFO - Successfully processed: assets/shaders/src/signed_distance_field_text.frag
+2025-03-11 22:00:44,835 - INFO - Processing: assets/shaders/src/model_loading.frag -> assets/shaders/out/model_loading.frag
+2025-03-11 22:00:44,836 - INFO - Processing shader file: assets/shaders/src/model_loading.frag
+2025-03-11 22:00:44,836 - INFO - Successfully processed: assets/shaders/src/model_loading.frag
+2025-03-11 22:00:44,836 - INFO - Processing: assets/shaders/src/fixed_color_black_temp.frag -> assets/shaders/out/fixed_color_black_temp.frag
+2025-03-11 22:00:44,836 - INFO - Processing shader file: assets/shaders/src/fixed_color_black_temp.frag
+2025-03-11 22:00:44,836 - INFO - Successfully processed: assets/shaders/src/fixed_color_black_temp.frag
+2025-03-11 22:00:44,836 - INFO - Processing: assets/shaders/src/cubemap.frag -> assets/shaders/out/cubemap.frag
+2025-03-11 22:00:44,836 - INFO - Processing shader file: assets/shaders/src/cubemap.frag
+2025-03-11 22:00:44,837 - INFO - Successfully processed: assets/shaders/src/cubemap.frag
+2025-03-11 22:00:44,837 - INFO - Processing: assets/shaders/src/solid_color.frag -> assets/shaders/out/solid_color.frag
+2025-03-11 22:00:44,837 - INFO - Processing shader file: assets/shaders/src/solid_color.frag
+2025-03-11 22:00:44,837 - INFO - Successfully processed: assets/shaders/src/solid_color.frag
+2025-03-11 22:00:44,837 - INFO - Processing: assets/shaders/src/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert -> assets/shaders/out/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 22:00:44,837 - INFO - Processing shader file: assets/shaders/src/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 22:00:44,837 - INFO - Successfully processed: assets/shaders/src/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 22:00:44,838 - INFO - Processing: assets/shaders/src/colored_vertices.frag -> assets/shaders/out/colored_vertices.frag
+2025-03-11 22:00:44,838 - INFO - Processing shader file: assets/shaders/src/colored_vertices.frag
+2025-03-11 22:00:44,838 - INFO - Successfully processed: assets/shaders/src/colored_vertices.frag
+2025-03-11 22:00:44,838 - INFO - Processing: assets/shaders/src/fixed_color.frag -> assets/shaders/out/fixed_color.frag
+2025-03-11 22:00:44,838 - INFO - Processing shader file: assets/shaders/src/fixed_color.frag
+2025-03-11 22:00:44,841 - INFO - Successfully processed: assets/shaders/src/fixed_color.frag
+2025-03-11 22:00:44,842 - INFO - Processing: assets/shaders/src/CWL_v_transformation.vert -> assets/shaders/out/CWL_v_transformation.vert
+2025-03-11 22:00:44,842 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation.vert
+2025-03-11 22:00:44,843 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation.vert
+2025-03-11 22:00:44,843 - INFO - Processing: assets/shaders/src/textured_with_ambient_and_diffuse_lighting.frag -> assets/shaders/out/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 22:00:44,843 - INFO - Processing shader file: assets/shaders/src/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 22:00:44,843 - INFO - Successfully processed: assets/shaders/src/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 22:00:44,843 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_colored_vertices.vert -> assets/shaders/out/CWL_v_transformation_with_colored_vertices.vert
+2025-03-11 22:00:44,843 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_colored_vertices.vert
+2025-03-11 22:00:44,844 - INFO - Including file: CWL_uniforms.glsl
+2025-03-11 22:00:44,844 - INFO - Processing shader file: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 22:00:44,844 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_colored_vertices.vert
+2025-03-11 22:00:44,844 - INFO - Processing: assets/shaders/src/CWL_v_transformation_ubos_1024_with_colored_vertex.vert -> assets/shaders/out/CWL_v_transformation_ubos_1024_with_colored_vertex.vert
+2025-03-11 22:00:44,844 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_ubos_1024_with_colored_vertex.vert
+2025-03-11 22:00:44,844 - INFO - Including file: texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 22:00:44,844 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 22:00:44,844 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_ubos_1024_with_colored_vertex.vert
+2025-03-11 22:00:44,844 - INFO - Processing: assets/shaders/src/absolute_position.vert -> assets/shaders/out/absolute_position.vert
+2025-03-11 22:00:44,845 - INFO - Processing shader file: assets/shaders/src/absolute_position.vert
+2025-03-11 22:00:44,845 - INFO - Including file: aspect_ratio_correction.glsl
+2025-03-11 22:00:44,845 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 22:00:44,845 - INFO - Successfully processed: assets/shaders/src/absolute_position.vert
+2025-03-11 22:00:44,845 - INFO - Processing: assets/shaders/src/textured_with_single_bone_visualization.frag -> assets/shaders/out/textured_with_single_bone_visualization.frag
+2025-03-11 22:00:44,845 - INFO - Processing shader file: assets/shaders/src/textured_with_single_bone_visualization.frag
+2025-03-11 22:00:44,845 - INFO - Successfully processed: assets/shaders/src/textured_with_single_bone_visualization.frag
+2025-03-11 22:00:44,845 - INFO - Processing: assets/shaders/src/absolute_position_textured.vert -> assets/shaders/out/absolute_position_textured.vert
+2025-03-11 22:00:44,845 - INFO - Processing shader file: assets/shaders/src/absolute_position_textured.vert
+2025-03-11 22:00:44,846 - INFO - Including file: aspect_ratio_correction.glsl
+2025-03-11 22:00:44,846 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 22:00:44,846 - INFO - Successfully processed: assets/shaders/src/absolute_position_textured.vert
+2025-03-11 22:00:44,846 - INFO - Processing: assets/shaders/src/colored_vertices.vert -> assets/shaders/out/colored_vertices.vert
+2025-03-11 22:00:44,846 - INFO - Processing shader file: assets/shaders/src/colored_vertices.vert
+2025-03-11 22:00:44,846 - INFO - Including file: aspect_ratio_correction.glsl
+2025-03-11 22:00:44,846 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 22:00:44,846 - INFO - Successfully processed: assets/shaders/src/colored_vertices.vert
+2025-03-11 22:00:44,846 - INFO - Processing: assets/shaders/src/textured_with_ambient_lighting.frag -> assets/shaders/out/textured_with_ambient_lighting.frag
+2025-03-11 22:00:44,846 - INFO - Processing shader file: assets/shaders/src/textured_with_ambient_lighting.frag
+2025-03-11 22:00:44,847 - INFO - Successfully processed: assets/shaders/src/textured_with_ambient_lighting.frag
+2025-03-11 22:00:44,847 - INFO - Processing: assets/shaders/src/cubemap.vert -> assets/shaders/out/cubemap.vert
+2025-03-11 22:00:44,847 - INFO - Processing shader file: assets/shaders/src/cubemap.vert
+2025-03-11 22:00:44,847 - INFO - Successfully processed: assets/shaders/src/cubemap.vert
+2025-03-11 22:00:44,847 - INFO - Processing: assets/shaders/src/aspect_ratio_correction.glsl -> assets/shaders/out/aspect_ratio_correction.glsl
+2025-03-11 22:00:44,847 - INFO - Processing shader file: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 22:00:44,847 - INFO - Successfully processed: assets/shaders/src/aspect_ratio_correction.glsl
+2025-03-11 22:00:44,847 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert -> assets/shaders/out/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 22:00:44,848 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 22:00:44,848 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 22:00:44,848 - INFO - Processing: assets/shaders/src/CWL_uniforms.glsl -> assets/shaders/out/CWL_uniforms.glsl
+2025-03-11 22:00:44,848 - INFO - Processing shader file: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 22:00:44,848 - INFO - Successfully processed: assets/shaders/src/CWL_uniforms.glsl
+2025-03-11 22:00:44,848 - INFO - Processing: assets/shaders/src/text.vert -> assets/shaders/out/text.vert
+2025-03-11 22:00:44,848 - INFO - Processing shader file: assets/shaders/src/text.vert
+2025-03-11 22:00:44,848 - INFO - Successfully processed: assets/shaders/src/text.vert
+2025-03-11 22:00:44,848 - INFO - Processing: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_passthrough.vert -> assets/shaders/out/CWL_v_transformation_with_texture_coordinate_passthrough.vert
+2025-03-11 22:00:44,849 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_passthrough.vert
+2025-03-11 22:00:44,849 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_with_texture_coordinate_passthrough.vert
+2025-03-11 22:00:44,849 - INFO - Processing: assets/shaders/src/object_id.frag -> assets/shaders/out/object_id.frag
+2025-03-11 22:00:44,849 - INFO - Processing shader file: assets/shaders/src/object_id.frag
+2025-03-11 22:00:44,849 - INFO - Successfully processed: assets/shaders/src/object_id.frag
+2025-03-11 22:00:44,849 - INFO - Processing: assets/shaders/src/CWL_v_transformation_ubos.vert -> assets/shaders/out/CWL_v_transformation_ubos.vert
+2025-03-11 22:00:44,849 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_ubos.vert
+2025-03-11 22:00:44,849 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_ubos.vert
+2025-03-11 22:00:44,849 - INFO - Processing: assets/shaders/src/textured.frag -> assets/shaders/out/textured.frag
+2025-03-11 22:00:44,849 - INFO - Processing shader file: assets/shaders/src/textured.frag
+2025-03-11 22:00:44,850 - INFO - Successfully processed: assets/shaders/src/textured.frag
+2025-03-11 22:00:44,850 - INFO - Processing: assets/shaders/src/text.frag -> assets/shaders/out/text.frag
+2025-03-11 22:00:44,850 - INFO - Processing shader file: assets/shaders/src/text.frag
+2025-03-11 22:00:44,850 - INFO - Successfully processed: assets/shaders/src/text.frag
+2025-03-11 22:00:44,850 - INFO - Processing: assets/shaders/src/transform_v_with_texture_coordinate_passthrough.vert -> assets/shaders/out/transform_v_with_texture_coordinate_passthrough.vert
+2025-03-11 22:00:44,850 - INFO - Processing shader file: assets/shaders/src/transform_v_with_texture_coordinate_passthrough.vert
+2025-03-11 22:00:44,850 - INFO - Successfully processed: assets/shaders/src/transform_v_with_texture_coordinate_passthrough.vert
+2025-03-11 22:00:44,850 - INFO - Processing: assets/shaders/src/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert -> assets/shaders/out/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert
+2025-03-11 22:00:44,850 - INFO - Processing shader file: assets/shaders/src/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert
+2025-03-11 22:00:44,850 - INFO - Including file: texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 22:00:44,850 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 22:00:44,851 - INFO - Successfully processed: assets/shaders/src/CWL_v_transformation_ubos_1024_with_object_id_passthrough.vert
+2025-03-11 22:00:44,851 - INFO - Processing: assets/shaders/src/texture_packer/signed_distance_field_text.frag -> assets/shaders/out/texture_packer/signed_distance_field_text.frag
+2025-03-11 22:00:44,851 - INFO - Processing shader file: assets/shaders/src/texture_packer/signed_distance_field_text.frag
+2025-03-11 22:00:44,851 - INFO - Successfully processed: assets/shaders/src/texture_packer/signed_distance_field_text.frag
+2025-03-11 22:00:44,851 - INFO - Processing: assets/shaders/src/texture_packer/CWL_v_transformation_ubos_1024.vert -> assets/shaders/out/texture_packer/CWL_v_transformation_ubos_1024.vert
+2025-03-11 22:00:44,852 - INFO - Processing shader file: assets/shaders/src/texture_packer/CWL_v_transformation_ubos_1024.vert
+2025-03-11 22:00:44,852 - INFO - Including file: local_to_world_1024_ubo.glsl
+2025-03-11 22:00:44,852 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 22:00:44,852 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 22:00:44,852 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 22:00:44,852 - INFO - Successfully processed: assets/shaders/src/texture_packer/CWL_v_transformation_ubos_1024.vert
+2025-03-11 22:00:44,852 - INFO - Processing: assets/shaders/src/texture_packer/packed_texture_sampling.glsl -> assets/shaders/out/texture_packer/packed_texture_sampling.glsl
+2025-03-11 22:00:44,852 - INFO - Processing shader file: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 22:00:44,853 - INFO - Successfully processed: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 22:00:44,853 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert
+2025-03-11 22:00:44,853 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert
+2025-03-11 22:00:44,853 - INFO - Including file: local_to_world_2048_ubo.glsl
+2025-03-11 22:00:44,853 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 22:00:44,853 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 22:00:44,853 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 22:00:44,854 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 22:00:44,854 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 22:00:44,854 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 22:00:44,854 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 22:00:44,854 - INFO - Including file: lighting_input_passthrough.glsl
+2025-03-11 22:00:44,854 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 22:00:44,854 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_2048_with_lighting_data_passthrough.vert
+2025-03-11 22:00:44,855 - INFO - Processing: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl -> assets/shaders/out/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 22:00:44,855 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 22:00:44,856 - INFO - Successfully processed: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 22:00:44,856 - INFO - Processing: assets/shaders/src/texture_packer/textured_with_multiple_lights.frag -> assets/shaders/out/texture_packer/textured_with_multiple_lights.frag
+2025-03-11 22:00:44,856 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured_with_multiple_lights.frag
+2025-03-11 22:00:44,856 - INFO - Including file: lighting.glsl
+2025-03-11 22:00:44,856 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting.glsl
+2025-03-11 22:00:44,856 - INFO - Including file: packed_texture_sampling.glsl
+2025-03-11 22:00:44,856 - INFO - Processing shader file: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 22:00:44,857 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured_with_multiple_lights.frag
+2025-03-11 22:00:44,858 - INFO - Processing: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl -> assets/shaders/out/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 22:00:44,858 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 22:00:44,860 - INFO - Successfully processed: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 22:00:44,860 - INFO - Processing: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl -> assets/shaders/out/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 22:00:44,860 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 22:00:44,860 - INFO - Successfully processed: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 22:00:44,860 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 22:00:44,861 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 22:00:44,861 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_with_texture_coordinate_and_bone_data_passthrough.vert
+2025-03-11 22:00:44,861 - INFO - Processing: assets/shaders/src/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert -> assets/shaders/out/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert
+2025-03-11 22:00:44,861 - INFO - Processing shader file: assets/shaders/src/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert
+2025-03-11 22:00:44,861 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 22:00:44,861 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 22:00:44,861 - INFO - Successfully processed: assets/shaders/src/texture_packer/CWL_v_transformation_texture_packed_passthrough.vert
+2025-03-11 22:00:44,861 - INFO - Processing: assets/shaders/src/texture_packer/textured_with_ambient_and_diffuse_lighting.frag -> assets/shaders/out/texture_packer/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 22:00:44,862 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 22:00:44,862 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured_with_ambient_and_diffuse_lighting.frag
+2025-03-11 22:00:44,862 - INFO - Processing: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl -> assets/shaders/out/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 22:00:44,862 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 22:00:44,862 - INFO - Successfully processed: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 22:00:44,862 - INFO - Processing: assets/shaders/src/texture_packer/textured_with_single_bone_visualization.frag -> assets/shaders/out/texture_packer/textured_with_single_bone_visualization.frag
+2025-03-11 22:00:44,862 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured_with_single_bone_visualization.frag
+2025-03-11 22:00:44,863 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured_with_single_bone_visualization.frag
+2025-03-11 22:00:44,863 - INFO - Processing: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl -> assets/shaders/out/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 22:00:44,863 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 22:00:44,863 - INFO - Successfully processed: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 22:00:44,863 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert
+2025-03-11 22:00:44,863 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert
+2025-03-11 22:00:44,863 - INFO - Including file: local_to_world_4096_ubo.glsl
+2025-03-11 22:00:44,863 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_4096_ubo.glsl
+2025-03-11 22:00:44,863 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 22:00:44,863 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 22:00:44,863 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 22:00:44,863 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 22:00:44,864 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 22:00:44,864 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 22:00:44,864 - INFO - Including file: lighting_input_passthrough.glsl
+2025-03-11 22:00:44,864 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 22:00:44,864 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_4096_with_lighting_data_passthrough.vert
+2025-03-11 22:00:44,864 - INFO - Processing: assets/shaders/src/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert -> assets/shaders/out/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 22:00:44,864 - INFO - Processing shader file: assets/shaders/src/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 22:00:44,864 - INFO - Successfully processed: assets/shaders/src/texture_packer/CWL_v_transformation_with_texture_coordinate_and_normal_passthrough.vert
+2025-03-11 22:00:44,864 - INFO - Processing: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl -> assets/shaders/out/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 22:00:44,864 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 22:00:44,865 - INFO - Successfully processed: assets/shaders/src/texture_packer/local_to_world_2048_ubo.glsl
+2025-03-11 22:00:44,865 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert
+2025-03-11 22:00:44,865 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert
+2025-03-11 22:00:44,865 - INFO - Including file: local_to_world_1024_ubo.glsl
+2025-03-11 22:00:44,865 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 22:00:44,865 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 22:00:44,865 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 22:00:44,865 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 22:00:44,865 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 22:00:44,865 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 22:00:44,865 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 22:00:44,865 - INFO - Including file: lighting_input_passthrough.glsl
+2025-03-11 22:00:44,865 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting_input_passthrough.glsl
+2025-03-11 22:00:44,866 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024_with_lighting_data_passthrough.vert
+2025-03-11 22:00:44,866 - INFO - Processing: assets/shaders/src/texture_packer/textured.frag -> assets/shaders/out/texture_packer/textured.frag
+2025-03-11 22:00:44,866 - INFO - Processing shader file: assets/shaders/src/texture_packer/textured.frag
+2025-03-11 22:00:44,866 - INFO - Including file: packed_texture_sampling.glsl
+2025-03-11 22:00:44,866 - INFO - Processing shader file: assets/shaders/src/texture_packer/packed_texture_sampling.glsl
+2025-03-11 22:00:44,866 - INFO - Successfully processed: assets/shaders/src/texture_packer/textured.frag
+2025-03-11 22:00:44,866 - INFO - Processing: assets/shaders/src/texture_packer/lighting.glsl -> assets/shaders/out/texture_packer/lighting.glsl
+2025-03-11 22:00:44,866 - INFO - Processing shader file: assets/shaders/src/texture_packer/lighting.glsl
+2025-03-11 22:00:44,867 - INFO - Successfully processed: assets/shaders/src/texture_packer/lighting.glsl
+2025-03-11 22:00:44,867 - INFO - Processing: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert -> assets/shaders/out/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert
+2025-03-11 22:00:44,867 - INFO - Processing shader file: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert
+2025-03-11 22:00:44,867 - INFO - Including file: local_to_world_1024_ubo.glsl
+2025-03-11 22:00:44,867 - INFO - Processing shader file: assets/shaders/src/texture_packer/local_to_world_1024_ubo.glsl
+2025-03-11 22:00:44,867 - INFO - Including file: ../CWL_uniforms.glsl
+2025-03-11 22:00:44,867 - INFO - Processing shader file: assets/shaders/src/texture_packer/../CWL_uniforms.glsl
+2025-03-11 22:00:44,867 - INFO - Including file: skeletal_animation_100_bones.glsl
+2025-03-11 22:00:44,867 - INFO - Processing shader file: assets/shaders/src/texture_packer/skeletal_animation_100_bones.glsl
+2025-03-11 22:00:44,867 - INFO - Including file: texture_packer_input_passthrough.glsl
+2025-03-11 22:00:44,867 - INFO - Processing shader file: assets/shaders/src/texture_packer/texture_packer_input_passthrough.glsl
+2025-03-11 22:00:44,867 - INFO - Successfully processed: assets/shaders/src/texture_packer/bone_and_CWL_v_transformation_ubos_1024.vert
+2025-03-11 22:00:44,868 - INFO - Shader compilation completed successfully.

@@ -61,3 +61,18 @@
 [submodule "src/graphics/colors"]
 	path = src/graphics/colors
 	url = git@github.com:cpp-toolbox/colors.git
+[submodule "src/graphics/rigged_model_loading"]
+	path = src/graphics/rigged_model_loading
+	url = git@github.com:cpp-toolbox/rigged_model_loading.git
+[submodule "src/utility/model_loading"]
+	path = src/utility/model_loading
+	url = git@github.com:cpp-toolbox/model_loading.git
+[submodule "src/graphics/texture_packer"]
+	path = src/graphics/texture_packer
+	url = git@github.com:cpp-toolbox/texture_packer.git
+[submodule "src/utility/texture_packer_model_loading"]
+	path = src/utility/texture_packer_model_loading
+	url = git@github.com:cpp-toolbox/texture_packer_model_loading.git
+[submodule "src/utility/fs_utils"]
+	path = src/utility/fs_utils
+	url = git@github.com:cpp-toolbox/fs_utils.git
