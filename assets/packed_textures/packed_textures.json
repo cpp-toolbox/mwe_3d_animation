@@ -1,6 +1,6 @@
 {
     "sub_textures": {
-        "assets/animations/sniper_rifle_with_hands.fbm/fps_hands_beige.png": {
+        "assets\\animations\\knife_with_hands.fbm\\fps_hands_beige.png": {
             "container_index": 0,
             "height": 256,
             "sub_textures": {},
@@ -8,12 +8,28 @@
             "x": 0,
             "y": 0
         },
-        "assets/animations/sniper_rifle_with_hands.fbm/sniper.png": {
+        "assets\\animations\\knife_with_hands.fbm\\knife.png": {
+            "container_index": 0,
+            "height": 256,
+            "sub_textures": {},
+            "width": 256,
+            "x": 256,
+            "y": 0
+        },
+        "assets\\animations\\sniper_rifle_with_hands.fbm\\fps_hands_beige.png": {
+            "container_index": 0,
+            "height": 256,
+            "sub_textures": {},
+            "width": 256,
+            "x": 512,
+            "y": 0
+        },
+        "assets\\animations\\sniper_rifle_with_hands.fbm\\sniper.png": {
             "container_index": 0,
             "height": 32,
             "sub_textures": {},
             "width": 128,
-            "x": 256,
+            "x": 768,
             "y": 0
         }
     }

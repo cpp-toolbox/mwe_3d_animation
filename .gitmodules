@@ -76,3 +76,6 @@
 [submodule "src/utility/fs_utils"]
 	path = src/utility/fs_utils
 	url = git@github.com:cpp-toolbox/fs_utils.git
+[submodule "src/utility/resource_path"]
+	path = src/utility/resource_path
+	url = git@github.com:cpp-toolbox/resource_path.git

@@ -12,6 +12,7 @@
 
 #include "utility/texture_packer_model_loading/texture_packer_model_loading.hpp"
 #include "utility/fixed_frequency_loop/fixed_frequency_loop.hpp"
+#include "utility/resource_path/resource_path.hpp"
 
 #include "graphics/rigged_model_loading/rigged_model_loading.hpp"
 #include "graphics/vertex_geometry/vertex_geometry.hpp"
@@ -27,14 +28,19 @@
 
 #include <filesystem>
 #include <iostream>
+#include <vector>
 
 int main(int argc, char *argv[]) {
+
+    ResourcePath rp(false);
+
     Colors colors;
 
+    // FPSCamera fps_camera(glm::vec3(0), .10);
     FPSCamera fps_camera;
 
     unsigned int window_width_px = 700, window_height_px = 700;
-    bool start_in_fullscreen = false;
+    bool start_in_fullscreen = true;
     bool start_with_mouse_captured = true;
     bool vsync = false;
 
@@ -74,17 +80,12 @@ int main(int argc, char *argv[]) {
 
     glm::mat4 identity = glm::mat4(1);
 
-    shader_cache.set_uniform(
-        ShaderType::TEXTURE_PACKER_RIGGED_AND_ANIMATED_CWL_V_TRANSFORMATION_UBOS_1024_WITH_TEXTURES,
-        ShaderUniformVariable::CAMERA_TO_CLIP, fps_camera.get_projection_matrix(window_width_px, window_height_px));
 
     std::string path = (argc > 1) ? argv[1] : "assets/animations/sniper_rifle_with_hands.fbx";
-    std::cout << "You entered: " << path << std::endl;
 
-    return 0;
 
     rigged_model_loading::RecIvpntRiggedCollector rirc;
-    auto ivpntrs = rirc.parse_model_into_ivpntrs(path);
+    auto ivpntrs = rirc.parse_model_into_ivpntrs(rp.gfp(path).string());
     auto ivpntprs = texture_packer_model_loading::convert_ivpntr_to_ivpntpr(ivpntrs, texture_packer);
 
     double current_animation_time = 0;
@@ -93,7 +94,7 @@ int main(int argc, char *argv[]) {
     std::function<void(double)> tick = [&](double dt) {
         /*glfwGetFramebufferSize(window, &width, &height);*/
 
-        glViewport(0, 0, window_width_px, window_width_px);
+        glViewport(0, 0, window_width_px, window_height_px);
 
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
@@ -105,6 +106,10 @@ int main(int argc, char *argv[]) {
         if (input_state.is_just_pressed(EKey::p)) {
             animation_is_playing = not animation_is_playing;
         }
+
+        shader_cache.set_uniform(
+        ShaderType::TEXTURE_PACKER_RIGGED_AND_ANIMATED_CWL_V_TRANSFORMATION_UBOS_1024_WITH_TEXTURES,
+        ShaderUniformVariable::CAMERA_TO_CLIP, fps_camera.get_projection_matrix(window_width_px, window_height_px));
 
         shader_cache.set_uniform(
             ShaderType::TEXTURE_PACKER_RIGGED_AND_ANIMATED_CWL_V_TRANSFORMATION_UBOS_1024_WITH_TEXTURES,
@@ -125,11 +130,13 @@ int main(int argc, char *argv[]) {
 
         shader_cache.use_shader_program(
             ShaderType::TEXTURE_PACKER_RIGGED_AND_ANIMATED_CWL_V_TRANSFORMATION_UBOS_1024_WITH_TEXTURES);
-        glUniformMatrix4fv(location, MAX_BONES_TO_BE_USED, GL_FALSE, glm::value_ptr(bone_transformations[0]));
+	glUniformMatrix4fv(location, bone_transformations.size(), GL_FALSE, glm::value_ptr(bone_transformations[0]));
+
+
 
         // now the model geometry:
         for (auto &ivpntpr : ivpntprs) {
-            // Populate bone_indices and bone_weights*/
+            // Populate bone_indices and bone_weights
             std::vector<glm::ivec4> bone_indices;
             std::vector<glm::vec4> bone_weights;
 
@@ -182,7 +189,7 @@ int main(int argc, char *argv[]) {
     std::function<bool()> termination = [&]() { return glfwWindowShouldClose(window.glfw_window); };
 
     FixedFrequencyLoop ffl;
-    ffl.start(120, tick, termination);
+    ffl.start(240, tick, termination);
 
     return 0;
 }
