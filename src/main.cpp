@@ -80,9 +80,7 @@ int main(int argc, char *argv[]) {
 
     glm::mat4 identity = glm::mat4(1);
 
-
     std::string path = (argc > 1) ? argv[1] : "assets/animations/sniper_rifle_with_hands.fbx";
-
 
     rigged_model_loading::RecIvpntRiggedCollector rirc;
     auto ivpntrs = rirc.parse_model_into_ivpntrs(rp.gfp(path).string());
@@ -108,8 +106,8 @@ int main(int argc, char *argv[]) {
         }
 
         shader_cache.set_uniform(
-        ShaderType::TEXTURE_PACKER_RIGGED_AND_ANIMATED_CWL_V_TRANSFORMATION_UBOS_1024_WITH_TEXTURES,
-        ShaderUniformVariable::CAMERA_TO_CLIP, fps_camera.get_projection_matrix(window_width_px, window_height_px));
+            ShaderType::TEXTURE_PACKER_RIGGED_AND_ANIMATED_CWL_V_TRANSFORMATION_UBOS_1024_WITH_TEXTURES,
+            ShaderUniformVariable::CAMERA_TO_CLIP, fps_camera.get_projection_matrix(window_width_px, window_height_px));
 
         shader_cache.set_uniform(
             ShaderType::TEXTURE_PACKER_RIGGED_AND_ANIMATED_CWL_V_TRANSFORMATION_UBOS_1024_WITH_TEXTURES,
@@ -119,7 +117,7 @@ int main(int argc, char *argv[]) {
 
         // first we upload the animation matrix
         std::vector<glm::mat4> bone_transformations;
-        rirc.set_bone_transforms(current_animation_time, bone_transformations);
+        rirc.set_bone_transforms(current_animation_time, bone_transformations, "swing");
 
         const unsigned int MAX_BONES_TO_BE_USED = 100;
         ShaderProgramInfo shader_info = shader_cache.get_shader_program(
@@ -130,9 +128,7 @@ int main(int argc, char *argv[]) {
 
         shader_cache.use_shader_program(
             ShaderType::TEXTURE_PACKER_RIGGED_AND_ANIMATED_CWL_V_TRANSFORMATION_UBOS_1024_WITH_TEXTURES);
-	glUniformMatrix4fv(location, bone_transformations.size(), GL_FALSE, glm::value_ptr(bone_transformations[0]));
-
-
+        glUniformMatrix4fv(location, bone_transformations.size(), GL_FALSE, glm::value_ptr(bone_transformations[0]));
 
         // now the model geometry:
         for (auto &ivpntpr : ivpntprs) {
