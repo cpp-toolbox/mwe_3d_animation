@@ -79,3 +79,6 @@
 [submodule "src/utility/resource_path"]
 	path = src/utility/resource_path
 	url = git@github.com:cpp-toolbox/resource_path.git
+[submodule "src/utility/print_utils"]
+	path = src/utility/print_utils
+	url = git@github.com:cpp-toolbox/print_utils.git
