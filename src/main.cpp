@@ -117,7 +117,7 @@ int main(int argc, char *argv[]) {
 
         // first we upload the animation matrix
         std::vector<glm::mat4> bone_transformations;
-        rirc.set_bone_transforms(current_animation_time, bone_transformations, "equip");
+        rirc.set_bone_transforms(current_animation_time, bone_transformations, "fire");
 
         const unsigned int MAX_BONES_TO_BE_USED = 100;
         ShaderProgramInfo shader_info = shader_cache.get_shader_program(
