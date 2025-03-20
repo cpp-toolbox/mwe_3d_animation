@@ -40,7 +40,7 @@ int main(int argc, char *argv[]) {
     FPSCamera fps_camera;
 
     unsigned int window_width_px = 700, window_height_px = 700;
-    bool start_in_fullscreen = true;
+    bool start_in_fullscreen = false;
     bool start_with_mouse_captured = true;
     bool vsync = false;
 
@@ -80,14 +80,18 @@ int main(int argc, char *argv[]) {
 
     glm::mat4 identity = glm::mat4(1);
 
-    std::string path = (argc > 1) ? argv[1] : "assets/animations/sniper_rifle_with_hands.fbx";
+    std::string path = (argc > 1) ? argv[1] : "assets/animations/knife_with_hands.fbx";
 
-    rigged_model_loading::RecIvpntRiggedCollector rirc;
+    rigged_model_loading::RecIvpntRiggedCollector rirc(
+        batcher.texture_packer_rigged_and_animated_cwl_v_transformation_ubos_1024_with_textures_shader_batcher
+            .object_id_generator);
     auto ivpntrs = rirc.parse_model_into_ivpntrs(rp.gfp(path).string());
     auto ivpntprs = texture_packer_model_loading::convert_ivpntr_to_ivpntpr(ivpntrs, texture_packer);
 
     double current_animation_time = 0;
     bool animation_is_playing = false;
+
+    std::string requested_animation = "equip";
 
     std::function<void(double)> tick = [&](double dt) {
         /*glfwGetFramebufferSize(window, &width, &height);*/
@@ -115,9 +119,23 @@ int main(int argc, char *argv[]) {
 
         // animation start
 
+        bool restart_requested = false;
+
+
+        if (input_state.is_just_pressed(EKey::q)) {
+            requested_animation = "equip";
+            restart_requested = true;
+        }
+
+        if (input_state.is_just_pressed(EKey::LEFT_MOUSE_BUTTON)) {
+            requested_animation = "swing";
+            restart_requested = true;
+        }
+
+
         // first we upload the animation matrix
         std::vector<glm::mat4> bone_transformations;
-        rirc.set_bone_transforms(current_animation_time, bone_transformations, "fire");
+        rirc.set_bone_transforms(dt, bone_transformations, requested_animation, false, restart_requested);
 
         const unsigned int MAX_BONES_TO_BE_USED = 100;
         ShaderProgramInfo shader_info = shader_cache.get_shader_program(
@@ -175,9 +193,6 @@ int main(int argc, char *argv[]) {
         glfwSwapBuffers(window.glfw_window);
         glfwPollEvents();
 
-        if (animation_is_playing) {
-            current_animation_time += dt;
-        }
 
         TemporalBinarySignal::process_all();
     };

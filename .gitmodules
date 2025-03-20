@@ -82,3 +82,6 @@
 [submodule "src/utility/print_utils"]
 	path = src/utility/print_utils
 	url = git@github.com:cpp-toolbox/print_utils.git
+[submodule "src/utility/glm_printing"]
+	path = src/utility/glm_printing
+	url = git@github.com:cpp-toolbox/glm_printing.git
