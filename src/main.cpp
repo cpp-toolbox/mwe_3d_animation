@@ -80,7 +80,7 @@ int main(int argc, char *argv[]) {
 
     glm::mat4 identity = glm::mat4(1);
 
-    std::string path = (argc > 1) ? argv[1] : "assets/animations/knife_with_hands.fbx";
+    std::string path = (argc > 1) ? argv[1] : "assets/animations/sniper_rifle_with_hands.fbx";
 
     rigged_model_loading::RecIvpntRiggedCollector rirc(
         batcher.texture_packer_rigged_and_animated_cwl_v_transformation_ubos_1024_with_textures_shader_batcher
@@ -128,7 +128,7 @@ int main(int argc, char *argv[]) {
         }
 
         if (input_state.is_just_pressed(EKey::LEFT_MOUSE_BUTTON)) {
-            requested_animation = "swing";
+            requested_animation = "fire";
             restart_requested = true;
         }
 

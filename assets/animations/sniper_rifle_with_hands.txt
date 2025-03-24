@@ -1,0 +1,8 @@
+Time (s)	Marker Name
+0.42	*bolt_grab
+0.62	*bolt_rotate
+0.92	*bolt_slide_back
+1.17	*bolt_slide_complete
+1.42	*bolt_rotate_complete
+1.46	*return_to_idle
+0.00	*exit_idle
