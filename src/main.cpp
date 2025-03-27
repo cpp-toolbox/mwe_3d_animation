@@ -80,7 +80,8 @@ int main(int argc, char *argv[]) {
 
     glm::mat4 identity = glm::mat4(1);
 
-    std::string path = (argc > 1) ? argv[1] : "assets/animations/grenade_launcher_with_hands.fbx";
+    std::string path = (argc > 1) ? argv[1] : "assets/animations/sniper_rifle_with_hands.fbx";
+    // std::string path = (argc > 1) ? argv[1] : "assets/animations/test.fbx";
 
     rigged_model_loading::RecIvpntRiggedCollector rirc(
         batcher.texture_packer_rigged_and_animated_cwl_v_transformation_ubos_1024_with_textures_shader_batcher
@@ -97,6 +98,8 @@ int main(int argc, char *argv[]) {
         /*glfwGetFramebufferSize(window, &width, &height);*/
 
         glViewport(0, 0, window_width_px, window_height_px);
+
+        glClearColor(0.0f, 0.0f, 0.2f, 1.0f);
 
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
@@ -121,7 +124,6 @@ int main(int argc, char *argv[]) {
 
         bool restart_requested = false;
 
-
         if (input_state.is_just_pressed(EKey::q)) {
             requested_animation = "equip";
             restart_requested = true;
@@ -131,7 +133,6 @@ int main(int argc, char *argv[]) {
             requested_animation = "fire";
             restart_requested = true;
         }
-
 
         // first we upload the animation matrix
         std::vector<glm::mat4> bone_transformations;
@@ -192,7 +193,6 @@ int main(int argc, char *argv[]) {
 
         glfwSwapBuffers(window.glfw_window);
         glfwPollEvents();
-
 
         TemporalBinarySignal::process_all();
     };
