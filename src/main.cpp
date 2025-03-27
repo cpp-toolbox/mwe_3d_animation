@@ -80,7 +80,7 @@ int main(int argc, char *argv[]) {
 
     glm::mat4 identity = glm::mat4(1);
 
-    std::string path = (argc > 1) ? argv[1] : "assets/animations/sniper_rifle_with_hands.fbx";
+    std::string path = (argc > 1) ? argv[1] : "assets/animations/shotgun_with_hands.fbx";
     // std::string path = (argc > 1) ? argv[1] : "assets/animations/test.fbx";
 
     rigged_model_loading::RecIvpntRiggedCollector rirc(
@@ -136,7 +136,7 @@ int main(int argc, char *argv[]) {
 
         // first we upload the animation matrix
         std::vector<glm::mat4> bone_transformations;
-        rirc.set_bone_transforms(dt, bone_transformations, requested_animation, false, restart_requested);
+        rirc.set_bone_transforms(dt, bone_transformations, requested_animation, false, restart_requested, true);
 
         const unsigned int MAX_BONES_TO_BE_USED = 100;
         ShaderProgramInfo shader_info = shader_cache.get_shader_program(
