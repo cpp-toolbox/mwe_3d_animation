@@ -85,3 +85,12 @@
 [submodule "src/utility/glm_printing"]
 	path = src/utility/glm_printing
 	url = git@github.com:cpp-toolbox/glm_printing.git
+[submodule "src/utility/fixed_size_array_tracker"]
+	path = src/utility/fixed_size_array_tracker
+	url = git@github.com:cpp-toolbox/fixed_size_array_tracker.git
+[submodule "src/utility/logger"]
+	path = src/utility/logger
+	url = git@github.com:cpp-toolbox/logger.git
+[submodule "src/utility/lazy_construction"]
+	path = src/utility/lazy_construction
+	url = git@github.com:cpp-toolbox/lazy_construction.git
