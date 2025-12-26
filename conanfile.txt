@@ -1,11 +1,14 @@
 [requires]
-glfw/3.4
-glad/0.1.36
-spdlog/1.14.1
-glm/cci.20230113
+nlohmann_json/3.12.0
 stb/cci.20230920
-nlohmann_json/3.11.3
+glad/0.1.36
+glfw/3.4
+openal-soft/1.23.1
+libsndfile/1.2.2
+glm/1.0.1
 assimp/5.4.3
+fmt/11.2.0
+spdlog/1.15.3
 
 [generators]
 CMakeDeps

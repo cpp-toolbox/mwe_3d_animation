@@ -1,3 +1,4 @@
+#include "utility/glm_utils/glm_utils.hpp"
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
@@ -6,14 +7,19 @@
 #include <stb_image.h>
 #include <stb_image_write.h>
 
-#include "graphics/draw_info/draw_info.hpp"
 #include "input/glfw_lambda_callback_manager/glfw_lambda_callback_manager.hpp"
 #include "input/input_state/input_state.hpp"
 
 #include "utility/texture_packer_model_loading/texture_packer_model_loading.hpp"
 #include "utility/fixed_frequency_loop/fixed_frequency_loop.hpp"
+#include "utility/unique_id_generator/unique_id_generator.hpp"
 #include "utility/resource_path/resource_path.hpp"
 
+#include "sound/sound_types/sound_types.hpp"
+
+#include "system_logic/toolbox_engine/toolbox_engine.hpp"
+
+#include "graphics/input_graphics_sound_menu/input_graphics_sound_menu.hpp"
 #include "graphics/rigged_model_loading/rigged_model_loading.hpp"
 #include "graphics/vertex_geometry/vertex_geometry.hpp"
 #include "graphics/shader_standard/shader_standard.hpp"
@@ -21,10 +27,9 @@
 #include "graphics/batcher/generated/batcher.hpp"
 #include "graphics/shader_cache/shader_cache.hpp"
 #include "graphics/fps_camera/fps_camera.hpp"
+#include "graphics/draw_info/draw_info.hpp"
 #include "graphics/window/window.hpp"
 #include "graphics/colors/colors.hpp"
-
-#include "utility/unique_id_generator/unique_id_generator.hpp"
 
 #include <filesystem>
 #include <iostream>
@@ -32,51 +37,25 @@
 
 int main(int argc, char *argv[]) {
 
-    ResourcePath rp(false);
-
-    Colors colors;
-
-    // FPSCamera fps_camera(glm::vec3(0), .10);
-    FPSCamera fps_camera;
-
-    unsigned int window_width_px = 700, window_height_px = 700;
-    bool start_in_fullscreen = false;
-    bool start_with_mouse_captured = true;
-    bool vsync = false;
-
-    Window window;
-    window.initialize_glfw_glad_and_return_window(window_width_px, window_height_px, "catmullrom camera interpolation",
-                                                  start_in_fullscreen, start_with_mouse_captured, vsync);
-
-    InputState input_state;
-
     std::vector<ShaderType> requested_shaders = {
-        ShaderType::TEXTURE_PACKER_RIGGED_AND_ANIMATED_CWL_V_TRANSFORMATION_UBOS_1024_WITH_TEXTURES};
-    ShaderCache shader_cache(requested_shaders);
-    Batcher batcher(shader_cache);
+        ShaderType::TEXTURE_PACKER_RIGGED_AND_ANIMATED_CWL_V_TRANSFORMATION_UBOS_1024_WITH_TEXTURES,
+        ShaderType::ABSOLUTE_POSITION_WITH_COLORED_VERTEX};
+    std::unordered_map<SoundType, std::string> sound_type_to_file = {{SoundType::CLICK, "assets/sounds/click.wav"},
+                                                                     {SoundType::HOVER, "assets/sounds/hover.wav"},
+                                                                     {SoundType::SUCCESS, "assets/sounds/success.wav"}};
+
+    ToolboxEngine tbx_engine{"mwe_3d_animation", requested_shaders, sound_type_to_file};
+
+    ResourcePath rp(false);
 
     const auto textures_directory = std::filesystem::path("assets");
     std::filesystem::path output_dir = std::filesystem::path("assets") / "packed_textures";
     int container_side_length = 1024;
 
     TexturePacker texture_packer(textures_directory, output_dir, container_side_length);
-    shader_cache.set_uniform(
+    tbx_engine.shader_cache.set_uniform(
         ShaderType::TEXTURE_PACKER_RIGGED_AND_ANIMATED_CWL_V_TRANSFORMATION_UBOS_1024_WITH_TEXTURES,
         ShaderUniformVariable::PACKED_TEXTURE_BOUNDING_BOXES, 1);
-
-    std::function<void(unsigned int)> char_callback = [](unsigned int codepoint) {};
-    std::function<void(int, int, int, int)> key_callback = [&](int key, int scancode, int action, int mods) {
-        input_state.glfw_key_callback(key, scancode, action, mods);
-    };
-    std::function<void(double, double)> mouse_pos_callback = [&](double xpos, double ypos) {
-        fps_camera.mouse_callback(xpos, ypos);
-    };
-    std::function<void(int, int, int)> mouse_button_callback = [&](int button, int action, int mods) {
-        input_state.glfw_mouse_button_callback(button, action, mods);
-    };
-    std::function<void(int, int)> frame_buffer_size_callback = [](int width, int height) {};
-    GLFWLambdaCallbackManager glcm(window.glfw_window, char_callback, key_callback, mouse_pos_callback,
-                                   mouse_button_callback, frame_buffer_size_callback);
 
     glm::mat4 identity = glm::mat4(1);
 
@@ -84,7 +63,8 @@ int main(int argc, char *argv[]) {
     // std::string path = (argc > 1) ? argv[1] : "assets/animations/test.fbx";
 
     rigged_model_loading::RecIvpntRiggedCollector rirc(
-        batcher.texture_packer_rigged_and_animated_cwl_v_transformation_ubos_1024_with_textures_shader_batcher
+        tbx_engine.batcher
+            .texture_packer_rigged_and_animated_cwl_v_transformation_ubos_1024_with_textures_shader_batcher
             .object_id_generator);
     auto ivpntrs = rirc.parse_model_into_ivpntrs(rp.gfp(path).string());
     auto ivpntprs = texture_packer_model_loading::convert_ivpntr_to_ivpntpr(ivpntrs, texture_packer);
@@ -95,41 +75,37 @@ int main(int argc, char *argv[]) {
     std::string requested_animation = "equip";
 
     std::function<void(double)> tick = [&](double dt) {
-        /*glfwGetFramebufferSize(window, &width, &height);*/
-
-        glViewport(0, 0, window_width_px, window_height_px);
-
-        glClearColor(0.0f, 0.0f, 0.2f, 1.0f);
-
-        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-
-        fps_camera.process_input(input_state.is_pressed(EKey::LEFT_CONTROL), input_state.is_pressed(EKey::TAB),
-                                 input_state.is_pressed(EKey::w), input_state.is_pressed(EKey::a),
-                                 input_state.is_pressed(EKey::s), input_state.is_pressed(EKey::d),
-                                 input_state.is_pressed(EKey::SPACE), input_state.is_pressed(EKey::LEFT_SHIFT), dt);
-
-        if (input_state.is_just_pressed(EKey::p)) {
+        if (tbx_engine.input_state.is_just_pressed(EKey::p)) {
             animation_is_playing = not animation_is_playing;
         }
 
-        shader_cache.set_uniform(
-            ShaderType::TEXTURE_PACKER_RIGGED_AND_ANIMATED_CWL_V_TRANSFORMATION_UBOS_1024_WITH_TEXTURES,
-            ShaderUniformVariable::CAMERA_TO_CLIP, fps_camera.get_projection_matrix(window_width_px, window_height_px));
+        tbx_engine.shader_cache.set_uniform(
+            ShaderType::ABSOLUTE_POSITION_WITH_COLORED_VERTEX, ShaderUniformVariable::ASPECT_RATIO,
+            glm_utils::tuple_to_vec2(tbx_engine.window.get_aspect_ratio_in_simplest_terms()));
 
-        shader_cache.set_uniform(
+        tbx_engine.shader_cache.set_uniform(
             ShaderType::TEXTURE_PACKER_RIGGED_AND_ANIMATED_CWL_V_TRANSFORMATION_UBOS_1024_WITH_TEXTURES,
-            ShaderUniformVariable::WORLD_TO_CAMERA, fps_camera.get_view_matrix());
+            ShaderUniformVariable::CAMERA_TO_CLIP, tbx_engine.fps_camera.get_projection_matrix());
+
+        tbx_engine.shader_cache.set_uniform(
+            ShaderType::TEXTURE_PACKER_RIGGED_AND_ANIMATED_CWL_V_TRANSFORMATION_UBOS_1024_WITH_TEXTURES,
+            ShaderUniformVariable::WORLD_TO_CAMERA, tbx_engine.fps_camera.get_view_matrix());
 
         // animation start
 
+        tbx_engine.update_active_mouse_mode(tbx_engine.igs_menu_active);
+        tbx_engine.update_camera_position_with_default_movement(dt);
+        tbx_engine.process_and_queue_render_input_graphics_sound_menu();
+        tbx_engine.draw_chosen_engine_stats();
+
         bool restart_requested = false;
 
-        if (input_state.is_just_pressed(EKey::q)) {
+        if (tbx_engine.input_state.is_just_pressed(EKey::q)) {
             requested_animation = "equip";
             restart_requested = true;
         }
 
-        if (input_state.is_just_pressed(EKey::LEFT_MOUSE_BUTTON)) {
+        if (tbx_engine.input_state.is_just_pressed(EKey::LEFT_MOUSE_BUTTON)) {
             requested_animation = "fire";
             restart_requested = true;
         }
@@ -139,13 +115,14 @@ int main(int argc, char *argv[]) {
         rirc.set_bone_transforms(dt, bone_transformations, requested_animation, false, restart_requested, true);
 
         const unsigned int MAX_BONES_TO_BE_USED = 100;
-        ShaderProgramInfo shader_info = shader_cache.get_shader_program(
+        ShaderProgramInfo shader_info = tbx_engine.shader_cache.get_shader_program(
             ShaderType::TEXTURE_PACKER_RIGGED_AND_ANIMATED_CWL_V_TRANSFORMATION_UBOS_1024_WITH_TEXTURES);
 
         GLint location = glGetUniformLocation(
-            shader_info.id, shader_cache.get_uniform_name(ShaderUniformVariable::BONE_ANIMATION_TRANSFORMS).c_str());
+            shader_info.id,
+            tbx_engine.shader_cache.get_uniform_name(ShaderUniformVariable::BONE_ANIMATION_TRANSFORMS).c_str());
 
-        shader_cache.use_shader_program(
+        tbx_engine.shader_cache.use_shader_program(
             ShaderType::TEXTURE_PACKER_RIGGED_AND_ANIMATED_CWL_V_TRANSFORMATION_UBOS_1024_WITH_TEXTURES);
         glUniformMatrix4fv(location, bone_transformations.size(), GL_FALSE, glm::value_ptr(bone_transformations[0]));
 
@@ -177,30 +154,31 @@ int main(int argc, char *argv[]) {
             // bad!
             std::vector<unsigned int> ltw_indices(ivpntpr.xyz_positions.size(), ivpntpr.id);
 
-            batcher.texture_packer_rigged_and_animated_cwl_v_transformation_ubos_1024_with_textures_shader_batcher
+            tbx_engine.batcher
+                .texture_packer_rigged_and_animated_cwl_v_transformation_ubos_1024_with_textures_shader_batcher
                 .queue_draw(ivpntpr.id, ivpntpr.indices, ltw_indices, bone_indices, bone_weights,
                             packed_texture_indices, ivpntpr.packed_texture_coordinates,
                             packed_texture_bounding_box_indices, ivpntpr.xyz_positions);
         }
 
-        batcher.texture_packer_rigged_and_animated_cwl_v_transformation_ubos_1024_with_textures_shader_batcher
+        tbx_engine.batcher
+            .texture_packer_rigged_and_animated_cwl_v_transformation_ubos_1024_with_textures_shader_batcher
             .upload_ltw_matrices();
 
-        batcher.texture_packer_rigged_and_animated_cwl_v_transformation_ubos_1024_with_textures_shader_batcher
+        tbx_engine.batcher
+            .texture_packer_rigged_and_animated_cwl_v_transformation_ubos_1024_with_textures_shader_batcher
             .draw_everything();
 
+        tbx_engine.batcher.absolute_position_with_colored_vertex_shader_batcher.draw_everything();
+
+        tbx_engine.sound_system.play_all_sounds();
+
         // animation end
-
-        glfwSwapBuffers(window.glfw_window);
-        glfwPollEvents();
-
-        TemporalBinarySignal::process_all();
     };
 
-    std::function<bool()> termination = [&]() { return glfwWindowShouldClose(window.glfw_window); };
+    std::function<bool()> termination = [&]() { return tbx_engine.window_should_close(); };
 
-    FixedFrequencyLoop ffl;
-    ffl.start(240, tick, termination);
+    tbx_engine.start(tick, termination);
 
     return 0;
 }

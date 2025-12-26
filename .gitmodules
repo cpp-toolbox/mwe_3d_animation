@@ -94,3 +94,63 @@
 [submodule "src/utility/lazy_construction"]
 	path = src/utility/lazy_construction
 	url = git@github.com:cpp-toolbox/lazy_construction.git
+[submodule "src/utility/glm_utils"]
+	path = src/utility/glm_utils
+	url = git@github.com:cpp-toolbox/glm_utils.git
+[submodule "src/utility/observable"]
+	path = src/utility/observable
+	url = git@github.com:cpp-toolbox/observable.git
+[submodule "src/utility/linalg_utils"]
+	path = src/utility/linalg_utils
+	url = git@github.com:cpp-toolbox/linalg_utils.git
+[submodule "src/utility/movement"]
+	path = src/utility/movement
+	url = git@github.com:cpp-toolbox/movement.git
+[submodule "src/utility/math_utils"]
+	path = src/utility/math_utils
+	url = git@github.com:cpp-toolbox/math_utils.git
+[submodule "src/utility/temporal_binary_switch"]
+	path = src/utility/temporal_binary_switch
+	url = git@github.com:cpp-toolbox/temporal_binary_switch.git
+[submodule "src/utility/reactive_vector"]
+	path = src/utility/reactive_vector
+	url = git@github.com:cpp-toolbox/reactive_vector.git
+[submodule "src/utility/circular_vector"]
+	path = src/utility/circular_vector
+	url = git@github.com:cpp-toolbox/circular_vector.git
+[submodule "src/utility/turns"]
+	path = src/utility/turns
+	url = git@github.com:cpp-toolbox/turns.git
+[submodule "src/utility/signal_emitter"]
+	path = src/utility/signal_emitter
+	url = git@github.com:cpp-toolbox/signal_emitter.git
+[submodule "src/utility/regex_utils"]
+	path = src/utility/regex_utils
+	url = git@github.com:cpp-toolbox/regex_utils.git
+[submodule "src/utility/text_utils"]
+	path = src/utility/text_utils
+	url = git@github.com:cpp-toolbox/text_utils.git
+[submodule "src/graphics/input_graphics_sound_menu"]
+	path = src/graphics/input_graphics_sound_menu
+	url = git@github.com:cpp-toolbox/input_graphics_sound_menu.git
+[submodule "src/sound/sound_system"]
+	path = src/sound/sound_system
+	url = git@github.com:cpp-toolbox/sound_system.git
+[submodule "src/utility/config_file_parser"]
+	path = src/utility/config_file_parser
+	url = git@github.com:cpp-toolbox/config_file_parser.git
+[submodule "src/graphics/ui"]
+	path = src/graphics/ui
+	url = git@github.com:cpp-toolbox/ui.git
+[submodule "src/graphics/grid_font"]
+	path = src/graphics/grid_font
+	url = git@github.com:cpp-toolbox/grid_font.git
+[submodule "src/system_logic/toolbox_engine"]
+	path = src/system_logic/toolbox_engine
+	url = git@github.com:cpp-toolbox/toolbox_engine.git
+[submodule "src/utility/glfw_input_adapter"]
+	path = src/utility/glfw_input_adapter
+	url = git@github.com:cpp-toolbox/glfw_input_adapter.git
+[submodule "src/graphics/ui_render_suite_implementation"]
+	path = src/graphics/ui_render_suite_implementation
+	url = git@github.com:cpp-toolbox/ui_render_suite_implementation.git
