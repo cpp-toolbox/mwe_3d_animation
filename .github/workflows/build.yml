@@ -1,0 +1,9 @@
+name: Build Project
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  call-shared-build:
+    uses: cpp-toolbox/github_workflows/.github/workflows/build.yml@main
