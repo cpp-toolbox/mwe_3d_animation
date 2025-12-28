@@ -154,3 +154,6 @@
 [submodule "src/graphics/ui_render_suite_implementation"]
 	path = src/graphics/ui_render_suite_implementation
 	url = git@github.com:cpp-toolbox/ui_render_suite_implementation.git
+[submodule "src/utility/collection_utils"]
+	path = src/utility/collection_utils
+	url = git@github.com:cpp-toolbox/collection_utils.git

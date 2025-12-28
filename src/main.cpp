@@ -1,4 +1,5 @@
 #include "utility/glm_utils/glm_utils.hpp"
+#include "utility/logger/logger.hpp"
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
@@ -35,7 +36,7 @@
 #include <iostream>
 #include <vector>
 
-int main(int argc, char *argv[]) {
+int main() {
 
     std::vector<ShaderType> requested_shaders = {
         ShaderType::TEXTURE_PACKER_RIGGED_AND_ANIMATED_CWL_V_TRANSFORMATION_UBOS_1024_WITH_TEXTURES,
@@ -59,20 +60,25 @@ int main(int argc, char *argv[]) {
 
     glm::mat4 identity = glm::mat4(1);
 
-    std::string path = (argc > 1) ? argv[1] : "assets/animations/shotgun_with_hands.fbx";
-    // std::string path = (argc > 1) ? argv[1] : "assets/animations/test.fbx";
+    std::string model_path = tbx_engine.configuration.get_value("general", "model_path")
+                                 .value_or("assets/animations/shotgun_with_hands.fbx");
+
+    std::string requested_animation =
+        tbx_engine.configuration.get_value("general", "requested_animation_name").value_or("equip");
 
     rigged_model_loading::RecIvpntRiggedCollector rirc(
         tbx_engine.batcher
             .texture_packer_rigged_and_animated_cwl_v_transformation_ubos_1024_with_textures_shader_batcher
             .object_id_generator);
-    auto ivpntrs = rirc.parse_model_into_ivpntrs(rp.gfp(path).string());
+    auto ivpntrs = rirc.parse_model_into_ivpntrs(rp.gfp(model_path).string());
     auto ivpntprs = texture_packer_model_loading::convert_ivpntr_to_ivpntpr(ivpntrs, texture_packer);
+    auto tig = draw_info::TransformedIVPNTPRGroup{
+        ivpntprs, tbx_engine.batcher
+                      .texture_packer_rigged_and_animated_cwl_v_transformation_ubos_1024_with_textures_shader_batcher
+                      .object_id_generator.get_id()};
 
     double current_animation_time = 0;
     bool animation_is_playing = false;
-
-    std::string requested_animation = "equip";
 
     std::function<void(double)> tick = [&](double dt) {
         if (tbx_engine.input_state.is_just_pressed(EKey::p)) {
@@ -105,61 +111,32 @@ int main(int argc, char *argv[]) {
             restart_requested = true;
         }
 
+        // knife has swing instead
         if (tbx_engine.input_state.is_just_pressed(EKey::LEFT_MOUSE_BUTTON)) {
-            requested_animation = "fire";
+            // requested_animation = "fire";
             restart_requested = true;
         }
 
         // first we upload the animation matrix
-        std::vector<glm::mat4> bone_transformations;
-        rirc.set_bone_transforms(dt, bone_transformations, requested_animation, false, restart_requested, true);
+        std::vector<glm::mat4> bone_id_to_lastutb;
+        rirc.set_animated_bone_transforms(dt, bone_id_to_lastutb, requested_animation, false, restart_requested, true);
 
         const unsigned int MAX_BONES_TO_BE_USED = 100;
         ShaderProgramInfo shader_info = tbx_engine.shader_cache.get_shader_program(
             ShaderType::TEXTURE_PACKER_RIGGED_AND_ANIMATED_CWL_V_TRANSFORMATION_UBOS_1024_WITH_TEXTURES);
 
-        GLint location = glGetUniformLocation(
+        GLint bone_animation_transforms_opengl_handle = glGetUniformLocation(
             shader_info.id,
             tbx_engine.shader_cache.get_uniform_name(ShaderUniformVariable::BONE_ANIMATION_TRANSFORMS).c_str());
 
         tbx_engine.shader_cache.use_shader_program(
             ShaderType::TEXTURE_PACKER_RIGGED_AND_ANIMATED_CWL_V_TRANSFORMATION_UBOS_1024_WITH_TEXTURES);
-        glUniformMatrix4fv(location, bone_transformations.size(), GL_FALSE, glm::value_ptr(bone_transformations[0]));
+        glUniformMatrix4fv(bone_animation_transforms_opengl_handle, bone_id_to_lastutb.size(), GL_FALSE,
+                           glm::value_ptr(bone_id_to_lastutb[0]));
 
-        // now the model geometry:
-        for (auto &ivpntpr : ivpntprs) {
-            // Populate bone_indices and bone_weights
-            std::vector<glm::ivec4> bone_indices;
-            std::vector<glm::vec4> bone_weights;
-
-            for (const auto &vertex_bone_data : ivpntpr.bone_data) {
-                glm::ivec4 indices(static_cast<int>(vertex_bone_data.indices_of_bones_that_affect_this_vertex[0]),
-                                   static_cast<int>(vertex_bone_data.indices_of_bones_that_affect_this_vertex[1]),
-                                   static_cast<int>(vertex_bone_data.indices_of_bones_that_affect_this_vertex[2]),
-                                   static_cast<int>(vertex_bone_data.indices_of_bones_that_affect_this_vertex[3]));
-
-                glm::vec4 weights(vertex_bone_data.weight_value_of_this_vertex_wrt_bone[0],
-                                  vertex_bone_data.weight_value_of_this_vertex_wrt_bone[1],
-                                  vertex_bone_data.weight_value_of_this_vertex_wrt_bone[2],
-                                  vertex_bone_data.weight_value_of_this_vertex_wrt_bone[3]);
-
-                bone_indices.push_back(indices);
-                bone_weights.push_back(weights);
-            }
-
-            std::vector<int> packed_texture_indices(ivpntpr.xyz_positions.size(), ivpntpr.packed_texture_index);
-            int ptbbi = texture_packer.get_packed_texture_bounding_box_index_of_texture(ivpntpr.texture);
-            std::vector<int> packed_texture_bounding_box_indices(ivpntpr.xyz_positions.size(), ptbbi);
-
-            // bad!
-            std::vector<unsigned int> ltw_indices(ivpntpr.xyz_positions.size(), ivpntpr.id);
-
-            tbx_engine.batcher
-                .texture_packer_rigged_and_animated_cwl_v_transformation_ubos_1024_with_textures_shader_batcher
-                .queue_draw(ivpntpr.id, ivpntpr.indices, ltw_indices, bone_indices, bone_weights,
-                            packed_texture_indices, ivpntpr.packed_texture_coordinates,
-                            packed_texture_bounding_box_indices, ivpntpr.xyz_positions);
-        }
+        tbx_engine.batcher
+            .texture_packer_rigged_and_animated_cwl_v_transformation_ubos_1024_with_textures_shader_batcher.queue_draw(
+                tig);
 
         tbx_engine.batcher
             .texture_packer_rigged_and_animated_cwl_v_transformation_ubos_1024_with_textures_shader_batcher
@@ -178,6 +155,7 @@ int main(int argc, char *argv[]) {
 
     std::function<bool()> termination = [&]() { return tbx_engine.window_should_close(); };
 
+    tbx_engine.main_loop.log_mode = LogSection::LogMode::disable;
     tbx_engine.start(tick, termination);
 
     return 0;
